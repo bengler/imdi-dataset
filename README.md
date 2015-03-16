@@ -2,10 +2,10 @@
 
 ## Required files
 
-./import/
-  bydeler.csv
-  kommuner.csv
-  leveranse-2-fra-imdi/*.csv
+- `./import`
+  -  `./bydeler.csv`
+  -  `./kommuner.csv`
+  -  `./leveranse-2-fra-imdi/*.csv`
 
 
 ## Install dependencies
