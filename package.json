@@ -8,11 +8,10 @@
     "make-tree": "DEBUG=imdi-dataset* babel-node --experimental make-tree.js",
     "all": "npm run import && npm run make-tree"
   },
-  "author": "",
+  "author": "Bengler AS",
   "license": "ISC",
   "dependencies": {
-    "array-trie": "^1.0.0",
-    "babel-core": "^4.7.9",
+    "babel": "^4.7.12",
     "csv-parse": "0.0.9",
     "debug": "^2.1.2",
     "flat": "^1.5.0",
