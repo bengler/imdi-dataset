@@ -14,35 +14,6 @@ const files = readdir(SOURCE_DIR)
   .flatMap(files => Rx.Observable.from(files))
   .map(file => path.join(SOURCE_DIR, file));
 
-
-function readFileContents(path) {
-  return Rx.Node.fromReadableStream(
-    fs.createReadStream(path)
-      .pipe(csv({
-        delimiter: ';'
-      }))
-  )
-    .map(row => row.map(cell => cell.trim()));
-}
-
-function createDatasetFromFilename(fullPath) {
-  const basename = path.basename(fullPath);
-
-  const [tableNo, tableName, area, year]  = path.basename(fullPath, path.extname(fullPath)).split("-");
-  return {
-    basename: basename,
-    path: fullPath,
-    tableNo,
-    tableName,
-    area,
-    year
-  }
-}
-
-function normalizeHeaderNames(headerName) {
-  return headerName.map(label => label.replace("/", "$").trim().replace(/\n|\r/g, ''));
-}
-
 const datasets = files
   .map(createDatasetFromFilename)
   .flatMap(dataset => {
@@ -82,13 +53,6 @@ const datasets = files
       });
   });
 
-function sanityCheckDataset(dataset) {
-  const {headers, rows} = dataset;
-  if (rows.some((row, i) => row.length !== headers.length)) {
-    debug("WARNING: Row %d of dataset %s has more elements than there are header columns", i, dataset.basename);
-  }
-}
-
 datasets
   .tap(sanityCheckDataset)
   .tap(dataset => debug("%s: (%d rows)\n\tHeaders: %o\n\tFirst data row: %o\n", dataset.basename, dataset.rows.length, dataset.headers.map(h => h.join("/")), dataset.rows[0]))
@@ -96,3 +60,39 @@ datasets
   .subscribe(datasets => {
     fs.writeFile(path.join(OUTPUT_DIR, 'test.json'), JSON.stringify(datasets, null, 2));
   })
+
+
+function sanityCheckDataset(dataset) {
+  const {headers, rows} = dataset;
+  if (rows.some((row, i) => row.length !== headers.length)) {
+    debug("WARNING: Row %d of dataset %s has more elements than there are header columns", i, dataset.basename);
+  }
+}
+
+function readFileContents(path) {
+  return Rx.Node.fromReadableStream(
+    fs.createReadStream(path)
+      .pipe(csv({
+        delimiter: ';'
+      }))
+  )
+    .map(row => row.map(cell => cell.trim()));
+}
+
+function createDatasetFromFilename(fullPath) {
+  const basename = path.basename(fullPath);
+
+  const [tableNo, tableName, area, year]  = path.basename(fullPath, path.extname(fullPath)).split("-");
+  return {
+    basename: basename,
+    path: fullPath,
+    tableNo,
+    tableName,
+    area,
+    year
+  }
+}
+
+function normalizeHeaderNames(headerName) {
+  return headerName.map(label => label.replace("/", "$").trim().replace(/\n|\r/g, ''));
+}
