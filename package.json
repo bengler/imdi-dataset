@@ -4,7 +4,9 @@
   "description": "",
   "main": "import.js",
   "scripts": {
-    "import": "DEBUG=imdi-dataset* babel-node --experimental ."
+    "import": "DEBUG=imdi-dataset* babel-node --experimental .",
+    "make-tree": "DEBUG=imdi-dataset* babel-node --experimental make-tree.js",
+    "all": "npm run import && npm run make-tree"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +15,8 @@
     "babel-core": "^4.7.9",
     "csv-parse": "0.0.9",
     "debug": "^2.1.2",
-    "rx": "^2.4.1"
+    "flat": "^1.5.0",
+    "rx": "^2.4.1",
+    "split": "^0.3.3"
   }
 }

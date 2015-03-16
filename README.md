@@ -12,6 +12,6 @@
 
     npm install
 
-## Run import
+## Run all
 
-    npm run import
+    npm run all

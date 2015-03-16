@@ -15,59 +15,61 @@ const files = readdir(SOURCE_DIR)
   .map(file => path.join(SOURCE_DIR, file));
 
 const datasets = files
-  .map(createDatasetFromFilename)
-  .flatMap(dataset => {
-    const readRows = readFileContents(dataset.path);
+    .map(createDatasetFromFilename)
+    .flatMap(dataset => {
+      const readRows = readFileContents(dataset.path);
 
-    let prevRow;
-    const headerRows = readRows.takeWhile(row => {
-      if (!prevRow) {
+      let prevRow;
+      const headerRows = readRows.takeWhile(row => {
+        if (!prevRow) {
+          prevRow = row;
+          return true;
+        }
+        const isLastHeaderRow = prevRow.some(cell => cell.includes('enhet'));
         prevRow = row;
-        return true;
-      }
-      const isLastHeaderRow = prevRow.some(cell => cell.includes('enhet'));
-      prevRow = row;
-      return !isLastHeaderRow;
-    });
+        return !isLastHeaderRow;
+      });
 
-    return headerRows
-      .map(normalizeHeaderNames)
-      .toArray()
-      .flatMap(headerRows => {
+      return headerRows
+        .map(normalizeHeaderNames)
+        .toArray()
+        .flatMap(headerRow => {
 
-        if (headerRows.length === 1) return headerRows;
+          if (headerRow.length === 1) return headerRow;
 
-        const lastHeaderRow = headerRows.pop();
-        return lastHeaderRow.map((col, colIdx) => {
-          return [...(headerRows.map(row => row[colIdx])), col];
-        });
-      })
-      .toArray()
-      .flatMap(headerRows => {
-        return readRows.toArray().map(remainingRows => {
-          return Object.assign({}, dataset, {
-            headers: headerRows,
-            rows: remainingRows
+          const lastHeaderRow = headerRow.pop();
+          return lastHeaderRow.map((col, colIdx) => {
+            return [...(headerRow.map(row => row[colIdx])), col];
           });
         })
-      });
-  });
+        .map(r => r.filter(Boolean))
+        .toArray()
+        .flatMap(headerRows => {
+          return readRows
+            .map(row => {
+              return row.reduce((obj, cellValue, i) => {
+                obj[headerRows[i].join("/")] = cellValue;
+                return obj;
+              }, {});
+            })
+            .toArray()
+            .map(remainingRows => {
+              return Object.assign({}, dataset, {
+                rows: remainingRows
+              });
+            })
+        });
+    })
+  ;
 
-datasets
-  .tap(sanityCheckDataset)
-  .tap(dataset => debug("%s: (%d rows)\n\tHeaders: %o\n\tFirst data row: %o\n", dataset.basename, dataset.rows.length, dataset.headers.map(h => h.join("/")), dataset.rows[0]))
-  .toArray()
-  .subscribe(datasets => {
-    fs.writeFile(path.join(OUTPUT_DIR, 'test.json'), JSON.stringify(datasets, null, 2));
-  })
+const jsonLines = datasets
+  .tap(dataset => debug("%s: (%d rows)",
+    dataset.basename,
+    dataset.rows.length
+  ))
+  .map(dataset => JSON.stringify(dataset) + '\n');
 
-
-function sanityCheckDataset(dataset) {
-  const {headers, rows} = dataset;
-  if (rows.some((row, i) => row.length !== headers.length)) {
-    debug("WARNING: Row %d of dataset %s has more elements than there are header columns", i, dataset.basename);
-  }
-}
+jsonLines.pipe(fs.createWriteStream(path.join(OUTPUT_DIR, 'datasets.json')));
 
 function readFileContents(path) {
   return Rx.Node.fromReadableStream(
@@ -93,6 +95,6 @@ function createDatasetFromFilename(fullPath) {
   }
 }
 
-function normalizeHeaderNames(headerName) {
-  return headerName.map(label => label.replace("/", "$").trim().replace(/\n|\r/g, ''));
+function normalizeHeaderNames(headerNames) {
+  return headerNames.map(label => label.replace("/", "$").trim().replace(/\n|\r/g, ''));
 }
