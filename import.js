@@ -39,12 +39,8 @@ function createDatasetFromFilename(fullPath) {
   }
 }
 
-//const files = Rx.Observable.from(FILES)
-//  .map(file => path.join(SOURCE_DIR, file));
-
 function normalizeHeaderNames(header) {
-  if (header)
-    return header.map(label => label.replace("/", "$").trim().replace(/\n|\r/g, ''));
+  return header.map(label => label.replace("/", "$").trim().replace(/\n|\r/g, ''));
 }
 
 const datasets = files.map(createDatasetFromFilename)
