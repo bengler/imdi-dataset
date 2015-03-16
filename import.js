@@ -39,15 +39,17 @@ function createDatasetFromFilename(fullPath) {
   }
 }
 
-function normalizeHeaderNames(header) {
-  return header.map(label => label.replace("/", "$").trim().replace(/\n|\r/g, ''));
+function normalizeHeaderNames(headerName) {
+  return headerName.map(label => label.replace("/", "$").trim().replace(/\n|\r/g, ''));
 }
 
-const datasets = files.map(createDatasetFromFilename)
+const datasets = files
+  .map(createDatasetFromFilename)
   .flatMap(dataset => {
     const readRows = readFileContents(dataset.path);
+
     let prevRow;
-    const headers = readRows.takeWhile(row => {
+    const headerRows = readRows.takeWhile(row => {
       if (!prevRow) {
         prevRow = row;
         return true;
@@ -57,7 +59,8 @@ const datasets = files.map(createDatasetFromFilename)
       return !isLastHeaderRow;
     });
 
-    return headers.map(normalizeHeaderNames)
+    return headerRows
+      .map(normalizeHeaderNames)
       .toArray()
       .flatMap(headerRows => {
 
@@ -76,7 +79,7 @@ const datasets = files.map(createDatasetFromFilename)
             rows: remainingRows
           });
         })
-      })
+      });
   });
 
 function sanityCheckDataset(dataset) {
