@@ -5,8 +5,9 @@
   "main": "import.js",
   "scripts": {
     "import": "DEBUG=imdi-dataset* babel-node --experimental .",
+    "import-historical": "DEBUG=imdi-dataset* babel-node --experimental import-historical.js",
     "make-tree": "DEBUG=imdi-dataset* babel-node --experimental make-tree.js",
-    "all": "npm run import && npm run make-tree"
+    "all": "npm run import && npm run import-historical && npm run make-tree"
   },
   "author": "Bengler AS",
   "license": "ISC",
