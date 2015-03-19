@@ -1,6 +1,6 @@
 export default {
   bestilling: {
-    tabeller: "befolkning_hovedgruppe",
+    tabell: "befolkning_hovedgruppe",
     regioner: ["K0102"]
     tid: ["1986"], // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
   },
