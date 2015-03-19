@@ -1,7 +1,7 @@
 export default {
   query: {
     table: "videregaende_fullfort",
-    region: ["F1"],
+    regions: ["F1"],
     dimensions: ["innvkat_5", "kjonn"],
     time: ["2011"]
   },
