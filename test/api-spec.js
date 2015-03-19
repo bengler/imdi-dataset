@@ -1,4 +1,4 @@
-import assert from 'assert'
+const assert = require("chai").assert;
 
 const DB = require("../db")
 
@@ -22,7 +22,7 @@ const expectations = [
             kjonn: {
               "1": {
                 enhet: {
-                  prosent: [23.5, 40.2, null],
+                  prosent: [23, 40.2, null],
                   person: [,,,]
                 }
               }
@@ -40,7 +40,6 @@ describe('query/response', ()=> {
   expectations.forEach(expectation => {
 
     it('works', ()=> {
-
       const db = new DB(expectation.tree);
       return db.query(expectation.query)
         .then(result => {
