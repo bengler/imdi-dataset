@@ -1,35 +1,39 @@
 export default {
   bestilling: {
     tabeller: "befolkning_hovedgruppe",
+    regioner: ["K0102"]
     tid: ["1986"], // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
     dimensjoner: ["innvkat5"],
-    regioner: ["K0102"]
   },
   resultat: {
     befolkning_hovedgruppe: {
-      tid: ['1986'],
-      innvkat5: {
-        alle: {
-          prosent: [10],
-          person: [568]
-        },
-        innvandrere: {
-          prosent: [11],
-          person: [73]
-        },
-        befolkningen_ellers: {
-          prosent: [12],
-          person: [5711]
-        },
-        norskfodte_m_innvf: {
-          prosent: [13],
-          person: [72]
-        },
-        bef_u_innv_og_norskf: {
-          prosent: [13],
-          person: [9392]
+      tid: ['1986'], 
+      data: {
+        "K0102":
+          innvkat5: {
+            alle: {
+              prosent: [10],
+              person: [568]
+            },
+            innvandrere: {
+              prosent: [11],
+              person: [73]
+            },
+            befolkningen_ellers: {
+              prosent: [12],
+              person: [5711]
+            },
+            norskfodte_m_innvf: {
+              prosent: [13],
+              person: [72]
+            },
+            bef_u_innv_og_norskf: {
+              prosent: [13],
+              person: [9392]
+            }
+          },
         }
-      },
+      }
     },
   },
   tree: {
