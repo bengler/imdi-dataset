@@ -1,28 +1,36 @@
 export default {
-  query: {
-    tabell: "befolkning_hovedgruppe",
-    time: "latest", // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
-    dimensions: ["innvkat5", "kjonn", "enhet.person"]
+  bestilling: {
+    tabeller: "befolkning_hovedgruppe",
+    tid: ["1986"], // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
+    dimensjoner: ["innvkat5"],
+    regioner: ["K0102"]
   },
-  result: {
+  resultat: {
     befolkning_hovedgruppe: {
-      time: {
-        timestamps: ['2001-01-01', '2002', '2003']
-      },
+      tid: ['1986'],
       innvkat5: {
-        asia: {
-          kjonn: {
-            "1": {
-              enhet: {
-                prosent: [23, 40.2, null],
-                person: [, , ,]
-              }
-            }
-          }
+        alle: {
+          prosent: [10],
+          person: [568]
         },
-        afrika: {}
-      }
-    }
+        innvandrere: {
+          prosent: [11],
+          person: [73]
+        },
+        befolkningen_ellers: {
+          prosent: [12],
+          person: [5711]
+        },
+        norskfodte_m_innvf: {
+          prosent: [13],
+          person: [72]
+        },
+        bef_u_innv_og_norskf: {
+          prosent: [13],
+          person: [9392]
+        }
+      },
+    },
   },
   tree: {
     "1986": {
