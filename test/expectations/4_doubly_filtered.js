@@ -14,8 +14,8 @@ export default {
             "1": {
               innvkat5: {
                 innvandrere: {
-                  personer: 139,
-                  prosent: 39
+                  personer: ["139"],
+                  prosent: ["39"]
                 }
               }
             }

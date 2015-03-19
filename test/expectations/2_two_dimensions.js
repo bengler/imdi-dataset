@@ -14,32 +14,32 @@ export default {
             alle: {
               kjonn: {
                 "0": {
-                  personer: 1226,
-                  prosent: 71.2
+                  personer: ["1226"],
+                  prosent: ["71.2"]
                 },
                 "1": {
-                  personer: 1055,
-                  prosent: 61.3
+                  personer: ["1055"],
+                  prosent: ["61.3"]
                 },
                 alle: {
-                  personer: 1055,
-                  prosent: 61.3
+                  personer: ["1055"],
+                  prosent: ["61.3"]
                 }
               }
             },
             innvandrere: {
               kjonn: {
                 "0": {
-                  personer: 371,
-                  prosent: 68.3
+                  personer: ["371"],
+                  prosent: ["68.3"]
                 },
                 "1": {
-                  personer: 139,
-                  prosent: 39
+                  personer: ["139"],
+                  prosent: ["39"]
                 },
                 alle: {
-                  personer: 210,
-                  prosent: 53.9
+                  personer: ["210"],
+                  prosent: ["53.9"]
                 }
               }
             }

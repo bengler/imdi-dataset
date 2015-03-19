@@ -12,24 +12,24 @@ export default {
         "K0102": {
           innvkat5: {
             alle: {
-              prosent: [10],
-              person: [568]
+              prosent: ["10"],
+              person: ["568"]
             },
             innvandrere: {
-              prosent: [11],
-              person: [73]
+              prosent: ["11"],
+              person: ["73"]
             },
             befolkningen_ellers: {
-              prosent: [12],
-              person: [5711]
+              prosent: ["12"],
+              person: ["5711"]
             },
             norskfodte_m_innvf: {
-              prosent: [13],
-              person: [72]
+              prosent: ["13"],
+              person: ["72"]
             },
             bef_u_innv_og_norskf: {
-              prosent: [13],
-              person: [9392]
+              prosent: ["13"],
+              person: ["9392"]
             }
           }
         }
