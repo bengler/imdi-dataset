@@ -7,7 +7,7 @@ export default class DB {
   }
 
   query(q) {
-    
+    return Promise.resolve({})
   }
 }
 

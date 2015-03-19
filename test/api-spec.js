@@ -38,10 +38,15 @@ const expectations = [
 
 describe('query/response', ()=> {
   expectations.forEach(expectation => {
-    const db = new DB(expectation.tree);
-    return db.query(expectation.query)
-      .then(result => {
-        assert.deepEqual(result, expectation.result);
-      })
+
+    it('works', ()=> {
+
+      const db = new DB(expectation.tree);
+      return db.query(expectation.query)
+        .then(result => {
+          assert.deepEqual(result, expectation.result);
+        })
+
+    });
   });
 });
