@@ -1,8 +1,8 @@
 export default {
   query: {
     table: "befolkning_hovedgruppe",
-    region: ["K0102"]
-    dimensions: ["innvkat5"]
+    region: ["K0102"],
+    dimensions: ["innvkat5"],
     time: ["1986"], // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
   },
   result: {
