@@ -1,7 +1,7 @@
 export default {
   query: {
     table: "befolkning_hovedgruppe",
-    regio: ["K0102"]
+    region: ["K0102"]
     time: ["1986"], // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
   },
   result: {
