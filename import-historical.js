@@ -116,7 +116,7 @@ const ROW_TRANSFORMERS = {
           assert(row[key] === "0", `Didn't expect values after ${period.to} for municipality ${name} (${municpalityNumber}) to have values`);
           return newRow;
         }
-        const newKey = [year, dataset.tableName, 'kommune', municpalityNumber, ...tail].join(".");
+        const newKey = [year, dataset.tableName, 'K'+municpalityNumber, ...tail].join(".");
         newRow[newKey] = row[key];
         return newRow;
       }, {});

@@ -21,6 +21,13 @@ const AREA_NUMBER_ALIASES = {
   ]
 };
 
+const AREA_PREFIX_MAP = {
+  naringsregion: 'N',
+  kommune: 'K',
+  fylke: 'F',
+  bydel: 'B',
+};
+
 const BLACKLISTED_HEADERS = [
   "Bydel nr & navn",
   "Bydel\nnavn",
@@ -173,8 +180,9 @@ const datasets = files
           .reduce((transformedRow, key) => {
             const tail = key.split(".");
 
-            const newKey = [year, tableName, area, areaNo, ...tail].join(".");
-            //debug("%s# %s => %s", dataset.path, key, newKey)
+            const areaPrefix = AREA_PREFIX_MAP[area];
+            const newKey = [year, tableName, areaPrefix+areaNo, ...tail].join(".");
+            debug("%s# %s# %s => %s", dataset.basename, area, key, newKey)
             transformedRow[newKey] = entry[key];
             return transformedRow;
           }, {});
