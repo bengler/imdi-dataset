@@ -1,51 +1,21 @@
+const fs = require("fs");
+const path = require("path");
 const assert = require("chai").assert;
+const DB = require("../db");
 
-const DB = require("../db")
+const expectations = fs.readdirSync(__dirname+'/expectations').map(filename => {
+  const expectation = require(path.join(__dirname, '/expectations', filename));
 
-const expectations = [
-  {
-    tree: {
-
-    },
-    query: {
-      tabell: "befolkning_hovedgruppe",
-      time: "latest", // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
-      dimensions: ["innvkat5", "kjonn", "enhet.person"]
-    },
-    result: {
-      befolkning_hovedgruppe: {
-        time: {
-          timestamps: ['2001-01-01', 2002, 2003]
-        },
-        innvkat5: {
-          asia: {
-            kjonn: {
-              "1": {
-                enhet: {
-                  prosent: [23, 40.2, null],
-                  person: [,,,]
-                }
-              }
-            }
-          },
-          afrika: {}
-        }
-      }
-    }
-  }
-
-];
+  return Object.assign(expectation, {
+    filename: filename
+  });
+});
 
 describe('query/response', ()=> {
-  expectations.forEach(expectation => {
+  expectations.forEach(({tree, result, query, filename}) => {
 
-    it('works', ()=> {
-      const db = new DB(expectation.tree);
-      return db.query(expectation.query)
-        .then(result => {
-          assert.deepEqual(result, expectation.result);
-        })
-
+    it(`Expectation in "${filename}" works`, ()=> {
+      return new DB(tree).query(query).then(actual => assert.deepEqual(actual, result))
     });
   });
 });
