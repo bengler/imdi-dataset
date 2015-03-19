@@ -1,12 +1,12 @@
 export default {
-  bestilling: {
-    tabell: "befolkning_hovedgruppe",
-    regioner: ["K0102"]
-    tid: ["1986"], // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
+  query: {
+    table: "befolkning_hovedgruppe",
+    regio: ["K0102"]
+    time: ["1986"], // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
   },
-  resultat: {
+  result: {
     befolkning_hovedgruppe: {
-      tid: ['1986'], 
+      time: ['1986'], 
       data: {
         "K0102":
           innvkat5: {
