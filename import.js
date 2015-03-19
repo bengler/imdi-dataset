@@ -219,7 +219,7 @@ function createDatasetFromFilename(fullPath) {
 
   const [tableNo, tableName, area, year]  = path.basename(basename, extname)
     // some files are suffixed with a version (e.g. _v2) that we ignore
-    .replace(/v\d+$/, '')
+    .replace(/_v\d+$/, '')
     .split("-");
 
   return {
