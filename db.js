@@ -7,21 +7,7 @@ export default class DB {
   }
 
   query(q) {
-
-    const free = new Set(path);
-
-    let cursor = this._tree;
-    while (free.size > 0) {
-      const next = [...free].find(freestep => freestep in cursor);
-      if (!next) {
-        return Bluebird.reject(new Error(`Invalid next step ${step}`))
-      }
-      if (next) {
-        cursor = cursor[next];
-      }
-      free.delete(next);
-    }
-    return Bluebird.resolve(cursor);
+    
   }
 }
 
