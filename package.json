@@ -7,16 +7,21 @@
     "import": "DEBUG=imdi-dataset* babel-node --experimental .",
     "import-historical": "DEBUG=imdi-dataset* babel-node --experimental import-historical.js",
     "make-tree": "DEBUG=imdi-dataset* babel-node --experimental make-tree.js",
-    "all": "npm run import && npm run import-historical && npm run make-tree"
+    "all": "npm run import && npm run import-historical && npm run make-tree",
+    "test": "mocha -r babel/register test"
   },
   "author": "Bengler AS",
   "license": "ISC",
   "dependencies": {
     "babel": "^4.7.12",
+    "bluebird": "^2.9.14",
     "csv-parse": "0.0.9",
     "debug": "^2.1.2",
     "flat": "^1.5.0",
     "rx": "^2.4.1",
     "split": "^0.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1"
   }
 }

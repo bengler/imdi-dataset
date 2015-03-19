@@ -1,0 +1,66 @@
+{
+  "1986": {
+    "befolkning_hovedgruppe": {
+      "kommune": {
+        "102": {
+          "innvkat_5": {
+            "alle": {
+              "enhet": {
+                "personer": "568"
+              }
+            },
+            "innvandrere": {
+              "enhet": {
+                "personer": "73"
+              }
+            },
+            "befolkningen_ellers": {
+              "enhet": {
+                "personer": "5711"
+              }
+            },
+            "norskfodte_m_innvf": {
+              "enhet": {
+                "personer": "72"
+              }
+            },
+            "bef_u_innv_og_norskf": {
+              "enhet": {
+                "personer": "9392"
+              }
+            }
+          }
+        },
+        "103": {
+          "innvkat_5": {
+            "alle": {
+              "enhet": {
+                "personer": "94893"
+              }
+            },
+            "innvandrere": {
+              "enhet": {
+                "personer": "913"
+              }
+            },
+            "befolkningen_ellers": {
+              "enhet": {
+                "personer": "34562"
+              }
+            },
+            "norskfodte_m_innvf": {
+              "enhet": {
+                "personer": "342"
+              }
+            },
+            "bef_u_innv_og_norskf": {
+              "enhet": {
+                "personer": "709382"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
