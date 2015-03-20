@@ -1,35 +1,9 @@
-import Bluebird from "bluebird";
+import pick from 'lodash.pick';
 
-
-const example = {
-  query: {
-    tabell: "befolkning_hovedgruppe",
-    time: "latest", // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
-    dimensions: ["innvkat5", "kjonn", "enhet.person"]
-  },
-  result: {
-    befolkning_hovedgruppe: {
-      time: {
-        timestamps: ['2001-01-01', '2002', '2003']
-      }
-      ,
-      innvkat5: {
-        asia: {
-          kjonn: {
-            "1": {
-              enhet: {
-                prosent: [23, 40.2, null],
-                person: [, , ,]
-              }
-            }
-          }
-        }
-        ,
-        afrika: {}
-      }
-    }
-  }
-};
+const assert = require("chai").assert;
+const reduceKV = require("./lib/kv-reduce");
+const dotty = require("dotty");
+const debug = require('debug')('imdi-dataset:db');
 
 export default class DB {
 
@@ -38,7 +12,52 @@ export default class DB {
   }
 
   query(q) {
-    return Promise.resolve({})
+    const {table, time, regions, dimensions} = q;
+
+
+    const subtree = pick(this._tree, time);
+
+    // Limit subtrees
+    const existingTimes = time.filter(time => time in subtree);
+
+    const data = reduceKV(subtree, (result, {key, value}, path, tree) => {
+
+      const isLeaf = typeof value !== 'object' && value !== null && value !== undefined;
+
+      if (!isLeaf) {
+        return result;
+      }
+
+      const [time, _table, region, ...dimensions] = path;
+
+      if (table !== table) {
+        return result;
+      }
+
+      if (!regions.includes(region)) {
+        return result;
+      }
+
+      debug("Leaf: %s=>%s", path.join("."), value);
+
+
+      const targetPath = [_table, region, ...dimensions];
+
+
+      //console.log("TIME: ", time, value, existingTimes.indexOf(time))
+
+      //debug("it #%s: %o", path, result);
+
+
+      const current = dotty.get(result, targetPath) || [];
+      current[existingTimes.indexOf(time)] = value;
+
+      dotty.put(result, targetPath, current)
+
+      return result;
+
+    }, { time: existingTimes });
+
+    return Promise.resolve(data);
   }
 }
-
