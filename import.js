@@ -104,7 +104,7 @@ const datasets = files
 
           if (headerRow.length === 1) return headerRow;
 
-          const lastHeaderRow = headerRow.pop();
+          const lastHeaderRow = headerRow.pop().map(cell => cell.replace(/^enhet\./, ''));
           return lastHeaderRow.map((col, colIdx) => {
             return [...(headerRow.map(row => row[colIdx])), col];
           });
@@ -123,7 +123,6 @@ const datasets = files
               return row.reduce((obj, cellValue, i) => {
 
                 const headers = headerRows[i];
-
                 if (headers.some(name => BLACKLISTED_HEADERS.includes(name))) {
                   return obj;
                 }
@@ -171,7 +170,7 @@ const datasets = files
             dataset.basename,
             areaNumberKey,
             entry
-          )
+          );
           return null;
         }
 
@@ -182,7 +181,7 @@ const datasets = files
 
             const areaPrefix = AREA_PREFIX_MAP[area];
             const newKey = [year, tableName, areaPrefix+areaNo, ...tail].join(".");
-            debug("%s# %s# %s => %s", dataset.basename, area, key, newKey)
+            debug("%s# %s => %s", dataset.basename, key, newKey)
             transformedRow[newKey] = entry[key];
             return transformedRow;
           }, {});
