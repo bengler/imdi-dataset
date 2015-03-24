@@ -1,6 +1,5 @@
 import pick from 'lodash.pick';
 
-const assert = require("chai").assert;
 const reduceKV = require("./lib/kv-reduce");
 const dotty = require("dotty");
 const debug = require('debug')('imdi-dataset:db');
