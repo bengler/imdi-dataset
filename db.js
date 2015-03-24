@@ -10,6 +10,10 @@ export default class DB {
     this._tree = tree;
   }
 
+  getAllPossibleTimes() {
+    return Promise.resolve(Object.keys(this._tree).sort());
+  }
+
   query(q) {
     const {table, time, regions, dimensions} = q;
 

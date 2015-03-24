@@ -11,13 +11,28 @@ const expectations = fs.readdirSync(__dirname+'/expectations').map(filename => {
   });
 });
 
-describe('query/response', ()=> {
-  expectations.forEach(({tree, result, query, filename}) => {
+describe('DB', ()=> {
+  describe('#query()', ()=> {
+    expectations.forEach(({tree, result, query, filename}) => {
 
-    const humanizedTitle = path.basename(filename, path.extname(filename)).replace(/_/g, " ");
+      const humanizedTitle = path.basename(filename, path.extname(filename)).replace(/_/g, " ");
 
-    it(`Expectation in "${humanizedTitle}" works`, ()=> {
-      return new DB(tree).query(query).then(actual => assert.deepEqual(actual, result))
+      it(`Expectation in "${humanizedTitle}" works`, ()=> {
+        return new DB(tree).query(query).then(actual => assert.deepEqual(actual, result))
+      });
     });
   });
+  describe('#getAllPossibleTimes()', ()=> {
+    it("returns all root keys of the tree object, in lexical order", ()=> {
+      const db = new DB({
+        '2014': {},
+        '2013': {},
+        '2005-2010': {}
+      });
+      return db.getAllPossibleTimes().then(times => {
+        assert.deepEqual(['2005-2010', '2013', '2014'], times)
+      })
+    });
+  });
+
 });
