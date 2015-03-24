@@ -9,8 +9,8 @@
     "make-tree": "DEBUG=imdi-dataset* babel-node --experimental make-tree.js",
     "all": "npm run import && npm run import-historical && npm run make-tree",
     "test": "mocha -r babel/register test",
-    "prepublish": "cp db.js tmp && babel db.js --out-file db.js",
-    "postpublish": "cp tmp/db.js db.js"
+    "prepublish": "rm -Rf .prepublish && mkdir .prepublish && cp -r *.js lib .prepublish/ && babel *.js --out-dir .",
+    "postpublish": "cp -r .prepublish/* ./ && rm -Rf .prepublish && git status"
   },
   "author": "Bengler AS",
   "license": "ISC",
