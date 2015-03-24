@@ -39,8 +39,7 @@ export default class DB {
 
       debug("Leaf: %s=>%s", path.join("."), value);
 
-
-      const targetPath = [_table, region, ...dimensions];
+      const targetPath = [region, ...dimensions];
 
 
       //console.log("TIME: ", time, value, existingTimes.indexOf(time))
@@ -55,7 +54,10 @@ export default class DB {
 
       return result;
 
-    }, { time: existingTimes });
+    }, {
+      time: existingTimes,
+      table: table
+    });
 
     return Promise.resolve(data);
   }

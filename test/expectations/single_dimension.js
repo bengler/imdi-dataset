@@ -6,30 +6,29 @@ export default {
     time: ["1986"] // "1985", "1989-2015", ["1989","1990","1991"], "1989,1990,1991"
   },
   result: {
+    table: 'befolkning_hovedgruppe',
     time: ['1986'],
-    befolkning_hovedgruppe: {
-      "K0102": {
-        innvkat_5: {
-          alle: {
-            prosent: ["10"],
-            personer: ["568"]
-          },
-          innvandrere: {
-            prosent: ["11"],
-            personer: ["73"]
-          },
-          befolkningen_ellers: {
-            prosent: ["12"],
-            personer: ["5711"]
-          },
-          norskfodte_m_innvf: {
-            prosent: ["13"],
-            personer: ["72"]
-          },
-          bef_u_innv_og_norskf: {
-            prosent: ["14"],
-            personer: ["9392"]
-          }
+    "K0102": {
+      innvkat_5: {
+        alle: {
+          prosent: ["10"],
+          personer: ["568"]
+        },
+        innvandrere: {
+          prosent: ["11"],
+          personer: ["73"]
+        },
+        befolkningen_ellers: {
+          prosent: ["12"],
+          personer: ["5711"]
+        },
+        norskfodte_m_innvf: {
+          prosent: ["13"],
+          personer: ["72"]
+        },
+        bef_u_innv_og_norskf: {
+          prosent: ["14"],
+          personer: ["9392"]
         }
       }
     }

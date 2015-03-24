@@ -6,21 +6,20 @@ export default {
     time: ["2011"]
   },
   result: {
-    befolkning_hovedgruppe: {
-      time: ['2011'],
-      data: {
-        "F1": {
-          kjonn: {
-            "1": {
-              innvkat5: {
-                alle: {
-                  personer: ["1055"],
-                  prosent: ["61.3"]
-                },
-                innvandrere: {
-                  personer: ["139"],
-                  prosent: ["39"]
-                }
+    table: "videregaende_fullfort",
+    time: ['2011'],
+    data: {
+      "F1": {
+        kjonn: {
+          "1": {
+            innvkat5: {
+              alle: {
+                personer: ["1055"],
+                prosent: ["61.3"]
+              },
+              innvandrere: {
+                personer: ["139"],
+                prosent: ["39"]
               }
             }
           }
