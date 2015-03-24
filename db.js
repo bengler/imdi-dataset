@@ -19,12 +19,26 @@ export default class DB {
   query(q) {
     const {table, time, regions, dimensions} = q;
 
+    const subtree = time.reduce((subtree, time) => {
+      if (!(time in this._tree)) {
+        return subtree;
+      }
 
-    const subtree = pick(this._tree, time);
+      if (!(table in this._tree[time])) {
+        return subtree;
+      }
+
+      subtree[time] = subtree[time] || {[table]: {}};
+
+      Object.assign(subtree[time][table], pick(this._tree[time][table], regions));
+
+      return subtree;
+    }, {});
 
     // Limit subtrees
-    const existingTimes = time.filter(time => time in subtree);
+    //const existingTimes = time.filter(time => time in subtree);
 
+    //debug(subtree);
     const data = reduceKV(subtree, (result, {key, value}, path, tree) => {
 
       const isLeaf = typeof value !== 'object' && value !== null && value !== undefined;
@@ -33,7 +47,7 @@ export default class DB {
         return result;
       }
 
-      const [time, _table, region, ...dimensions] = path;
+      const [_time, _table, region, ...dimensions] = path;
 
       if (table !== _table) {
         return result;
@@ -43,7 +57,7 @@ export default class DB {
         return result;
       }
 
-      debug("Leaf: %s=>%s", path.join("."), value);
+      //debug("Leaf: %s=>%s", path.join("."), value);
 
       const targetPath = ['data', region, ...dimensions];
 
@@ -54,14 +68,14 @@ export default class DB {
 
 
       const current = dotty.get(result, targetPath) || [];
-      current[existingTimes.indexOf(time)] = value;
+      current[time.indexOf(_time)] = value;
 
       dotty.put(result, targetPath, current)
 
       return result;
 
     }, {
-      time: existingTimes,
+      time: time,
       table: table
     });
 

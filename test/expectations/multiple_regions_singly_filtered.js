@@ -1,4 +1,5 @@
 export default {
+  pending: true,
   query: {
     table: "videregaende_fullfort",
     regions: ["F1", "F2"],
@@ -6,7 +7,7 @@ export default {
     time: ["2011"]
   },
   result: {
-    table: 'befolkning_hovedgruppe',
+    table: 'videregaende_fullfort',
     time: ['2011'],
     data: {
       "F1": {
@@ -41,80 +42,80 @@ export default {
           }
         }
       }
-    },
-    tree: {
-      "2011": {
-        "videregaende_fullfort": {
-          "F1": {
-            "fylke_nr": "1",
-            "innvkat_5": {
-              "alle": {
-                "kjonn": {
-                  "0": {
-                    "personer": "1226",
-                    "prosent": "71,2"
-                  },
-                  "1": {
-                    "personer": "1055",
-                    "prosent": "61,3"
-                  },
-                  "alle": {
-                    "personer": "2281",
-                    "prosent": "66,3"
-                  }
+    }
+  },
+  tree: {
+    "2011": {
+      "videregaende_fullfort": {
+        "F1": {
+          "fylke_nr": "1",
+          "innvkat_5": {
+            "alle": {
+              "kjonn": {
+                "0": {
+                  "personer": "1226",
+                  "prosent": "71,2"
+                },
+                "1": {
+                  "personer": "1055",
+                  "prosent": "61,3"
+                },
+                "alle": {
+                  "personer": "2281",
+                  "prosent": "66,3"
                 }
-              },
-              "innvandrere": {
-                "kjonn": {
-                  "0": {
-                    "personer": "371",
-                    "prosent": "68,3"
-                  },
-                  "1": {
-                    "personer": "139",
-                    "prosent": "39"
-                  },
-                  "alle": {
-                    "personer": "210",
-                    "prosent": "53,9"
-                  }
+              }
+            },
+            "innvandrere": {
+              "kjonn": {
+                "0": {
+                  "personer": "371",
+                  "prosent": "68,3"
+                },
+                "1": {
+                  "personer": "139",
+                  "prosent": "39"
+                },
+                "alle": {
+                  "personer": "210",
+                  "prosent": "53,9"
                 }
               }
             }
-          },
-          "F2": {
-            "fylke_nr": "2",
-            "innvkat_5": {
-              "alle": {
-                "kjonn": {
-                  "0": {
-                    "personer": "1226",
-                    "prosent": "71,2"
-                  },
-                  "1": {
-                    "personer": "1055",
-                    "prosent": "61,3"
-                  },
-                  "alle": {
-                    "personer": "2281",
-                    "prosent": "66,3"
-                  }
+          }
+        },
+        "F2": {
+          "fylke_nr": "2",
+          "innvkat_5": {
+            "alle": {
+              "kjonn": {
+                "0": {
+                  "personer": "1226",
+                  "prosent": "71,2"
+                },
+                "1": {
+                  "personer": "1055",
+                  "prosent": "61,3"
+                },
+                "alle": {
+                  "personer": "2281",
+                  "prosent": "66,3"
                 }
-              },
-              "innvandrere": {
-                "kjonn": {
-                  "0": {
-                    "personer": "371",
-                    "prosent": "68,3"
-                  },
-                  "1": {
-                    "personer": "139",
-                    "prosent": "39"
-                  },
-                  "alle": {
-                    "personer": "210",
-                    "prosent": "53,9"
-                  }
+              }
+            },
+            "innvandrere": {
+              "kjonn": {
+                "0": {
+                  "personer": "371",
+                  "prosent": "68,3"
+                },
+                "1": {
+                  "personer": "139",
+                  "prosent": "39"
+                },
+                "alle": {
+                  "personer": "210",
+                  "prosent": "53,9"
                 }
               }
             }

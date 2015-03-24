@@ -13,11 +13,12 @@ const expectations = fs.readdirSync(__dirname+'/expectations').map(filename => {
 
 describe('DB', ()=> {
   describe('#query()', ()=> {
-    expectations.forEach(({tree, result, query, filename}) => {
+    expectations.forEach(({pending, tree, result, query, filename}) => {
 
       const humanizedTitle = path.basename(filename, path.extname(filename)).replace(/_/g, " ");
 
-      it(`Expectation in "${humanizedTitle}" works`, ()=> {
+      const _it = pending ? xit : it;
+      _it(`Expectation in "${humanizedTitle}" works`, ()=> {
         return new DB(tree).query(query).then(actual => assert.deepEqual(actual, result))
       });
     });

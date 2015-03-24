@@ -1,4 +1,5 @@
 export default {
+  pending: true,
   query: {
     table: "videregaende_fullfort",
     regions: ["F1"],
