@@ -4,6 +4,8 @@ const reduceKV = require("./lib/kv-reduce");
 const dotty = require("dotty");
 const debug = require('debug')('imdi-dataset:db');
 
+const YEAR_REGEX = /^\d{4}$/
+
 export default class DB {
 
   constructor(tree) {
@@ -11,7 +13,7 @@ export default class DB {
   }
 
   getAllPossibleTimes() {
-    return Promise.resolve(Object.keys(this._tree).sort());
+    return Promise.resolve(Object.keys(this._tree).filter(year => YEAR_REGEX.test(year)).sort());
   }
 
   query(q) {

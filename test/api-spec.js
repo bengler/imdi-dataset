@@ -26,11 +26,24 @@ describe('DB', ()=> {
     it("returns all root keys of the tree object, in lexical order", ()=> {
       const db = new DB({
         '2014': {},
-        '2013': {},
-        '2005-2010': {}
+        '2012': {},
+        '2013': {}
       });
       return db.getAllPossibleTimes().then(times => {
-        assert.deepEqual(['2005-2010', '2013', '2014'], times)
+        assert.deepEqual(['2012', '2013', '2014'], times)
+      })
+    });
+    it("leaves out everything that doesn't look like a year", ()=> {
+      const db = new DB({
+        '2014': {},
+        '2013': {},
+        '2005-2010': {},
+        '2002_2005': {},
+        'blahblah': {},
+        '2012': {}
+      });
+      return db.getAllPossibleTimes().then(times => {
+        assert.deepEqual(['2012', '2013', '2014'], times)
       })
     });
   });
