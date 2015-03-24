@@ -26,5 +26,15 @@
   "devDependencies": {
     "chai": "^2.1.2",
     "mocha": "^2.2.1"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "experimental": true
+        }
+      ]
+    ]
   }
 }
