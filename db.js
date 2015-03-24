@@ -39,7 +39,7 @@ export default class DB {
 
       debug("Leaf: %s=>%s", path.join("."), value);
 
-      const targetPath = [region, ...dimensions];
+      const targetPath = ['data', region, ...dimensions];
 
 
       //console.log("TIME: ", time, value, existingTimes.indexOf(time))

@@ -8,40 +8,42 @@ export default {
   result: {
     table: "videregaende_fullfort",
     time: ['2011'],
-    "F1": {
-      kjonn: {
-        "0": {
-          innvkat5: {
-            alle: {
-              personer: ["1226"],
-              prosent: ["71.2"]
-            },
-            innvandrere: {
-              personer: ["371"],
-              prosent: ["68.3"]
-            }
-          }
-        },
-        "1": {
-          innvkat5: {
-            alle: {
-              personer: ["1055"],
-              prosent: ["61.3"]
-            },
-            innvandrere: {
-              personer: ["139"],
-              prosent: ["39"]
+    data: {
+      "F1": {
+        kjonn: {
+          "0": {
+            innvkat5: {
+              alle: {
+                personer: ["1226"],
+                prosent: ["71.2"]
+              },
+              innvandrere: {
+                personer: ["371"],
+                prosent: ["68.3"]
+              }
             }
           },
-          "alle": {
+          "1": {
             innvkat5: {
               alle: {
                 personer: ["1055"],
                 prosent: ["61.3"]
               },
               innvandrere: {
-                personer: ["210"],
-                prosent: ["53.9"]
+                personer: ["139"],
+                prosent: ["39"]
+              }
+            },
+            "alle": {
+              innvkat5: {
+                alle: {
+                  personer: ["1055"],
+                  prosent: ["61.3"]
+                },
+                innvandrere: {
+                  personer: ["210"],
+                  prosent: ["53.9"]
+                }
               }
             }
           }

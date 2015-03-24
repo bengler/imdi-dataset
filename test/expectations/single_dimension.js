@@ -8,27 +8,29 @@ export default {
   result: {
     table: 'befolkning_hovedgruppe',
     time: ['1986'],
-    "K0102": {
-      innvkat_5: {
-        alle: {
-          prosent: ["10"],
-          personer: ["568"]
-        },
-        innvandrere: {
-          prosent: ["11"],
-          personer: ["73"]
-        },
-        befolkningen_ellers: {
-          prosent: ["12"],
-          personer: ["5711"]
-        },
-        norskfodte_m_innvf: {
-          prosent: ["13"],
-          personer: ["72"]
-        },
-        bef_u_innv_og_norskf: {
-          prosent: ["14"],
-          personer: ["9392"]
+    data: {
+      "K0102": {
+        innvkat_5: {
+          alle: {
+            prosent: ["10"],
+            personer: ["568"]
+          },
+          innvandrere: {
+            prosent: ["11"],
+            personer: ["73"]
+          },
+          befolkningen_ellers: {
+            prosent: ["12"],
+            personer: ["5711"]
+          },
+          norskfodte_m_innvf: {
+            prosent: ["13"],
+            personer: ["72"]
+          },
+          bef_u_innv_og_norskf: {
+            prosent: ["14"],
+            personer: ["9392"]
+          }
         }
       }
     }
