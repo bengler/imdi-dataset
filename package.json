@@ -2,9 +2,9 @@
   "name": "imdi-dataset",
   "version": "1.0.0",
   "description": "",
-  "main": "import.js",
+  "main": "index.js",
   "scripts": {
-    "import": "DEBUG=imdi-dataset* babel-node --experimental .",
+    "import": "DEBUG=imdi-dataset* babel-node --experimental import.js",
     "import-historical": "DEBUG=imdi-dataset* babel-node --experimental import-historical.js",
     "make-tree": "DEBUG=imdi-dataset* babel-node --experimental make-tree.js",
     "all": "npm run import && npm run import-historical && npm run make-tree",

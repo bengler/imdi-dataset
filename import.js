@@ -181,7 +181,7 @@ const datasets = files
 
             const areaPrefix = AREA_PREFIX_MAP[area];
             const newKey = [year, tableName, areaPrefix+areaNo, ...tail].join(".");
-            debug("%s# %s => %s", dataset.basename, key, newKey)
+            //debug("%s# %s => %s", dataset.basename, key, newKey)
             transformedRow[newKey] = entry[key];
             return transformedRow;
           }, {});

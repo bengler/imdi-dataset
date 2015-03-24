@@ -1,5 +1,6 @@
 import
 out
+test
 tmp
 node_modules
 .DS_Store
