@@ -25,10 +25,11 @@ const lines = Rx.Observable.from(SOURCE_FILES).flatMap(sourceFile => {
 const datasets = lines.filter(Boolean).map(JSON.parse);
 
 datasets
-  .tap(dataset => debug("Unflattening %d keys by '.'", Object.keys(dataset).length))
   .reduce((acc, dataset) => {
-    return Object.assign(acc, unflatten(dataset, {object: true, delimiter: '.'}))
+    return Object.assign(acc, dataset)
   }, {})
+  .tap(merged => debug("Unflattening %d keys by '.'", Object.keys(merged).length))
+  .map(merged => unflatten(merged, {object: true, delimiter: '.'}))
   .tap(s => debug("Stringifying the whole thing..."))
   .map(s => JSON.stringify(s, null, 2))
   .tap(s => debug("Writing to %s", OUT_FILE))
