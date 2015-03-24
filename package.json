@@ -1,5 +1,5 @@
 {
-  "name": "imdi-dataset",
+  "name": "@bengler/imdi-dataset",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
