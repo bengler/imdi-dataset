@@ -14,7 +14,9 @@ const expectations = fs.readdirSync(__dirname+'/expectations').map(filename => {
 describe('query/response', ()=> {
   expectations.forEach(({tree, result, query, filename}) => {
 
-    it(`Expectation in "${filename}" works`, ()=> {
+    const humanizedTitle = path.basename(filename, path.extname(filename)).replace(/_/g, " ");
+
+    it(`Expectation in "${humanizedTitle}" works`, ()=> {
       return new DB(tree).query(query).then(actual => assert.deepEqual(actual, result))
     });
   });
