@@ -29,7 +29,7 @@ export default class DB {
 
       const [time, _table, region, ...dimensions] = path;
 
-      if (table !== table) {
+      if (table !== _table) {
         return result;
       }
 
