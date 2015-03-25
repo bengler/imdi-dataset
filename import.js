@@ -21,11 +21,18 @@ const AREA_NUMBER_ALIASES = {
   ]
 };
 
-const AREA_PREFIX_MAP = {
-  naringsregion: 'N',
-  kommune: 'K',
-  fylke: 'F',
-  bydel: 'B',
+function padleft(str, len, padchar=" ") {
+  while (str.length < len) {
+    str = `${padchar}${str}`;
+  }
+  return str;
+}
+
+const AREA_NORMALIZERS = {
+  naringsregion: (n) => `N${padleft(n, 2, '0')}`,
+  kommune: (n) => `K${padleft(n, 4, '0')}`,
+  fylke: (n) => `F${padleft(n, 2, '0')}`,
+  bydel: (n) => `B${padleft(n, 6, '0')}`
 };
 
 const BLACKLISTED_HEADERS = [
@@ -179,9 +186,9 @@ const datasets = files
           .reduce((transformedRow, key) => {
             const tail = key.split(".");
 
-            const areaPrefix = AREA_PREFIX_MAP[area];
-            const newKey = [year, tableName, areaPrefix+areaNo, ...tail].join(".");
-            //debug("%s# %s => %s", dataset.basename, key, newKey)
+            const normalizedNo = AREA_NORMALIZERS[area](areaNo);
+            const newKey = [year, tableName, normalizedNo, ...tail].join(".");
+            //debug("%s# %s => %s", "", key, newKey)
             transformedRow[newKey] = entry[key];
             return transformedRow;
           }, {});
