@@ -46,7 +46,7 @@ const datasets = files
 
           if (headerRow.length === 1) return headerRow;
 
-          const lastHeaderRow = headerRow.pop();
+          const lastHeaderRow = headerRow.pop().map(cell => cell.replace(/^enhet\./, ''));
           return lastHeaderRow.map((col, colIdx) => {
             return [...(headerRow.map(row => row[colIdx])), col];
           });
@@ -159,7 +159,7 @@ function createDatasetFromFilename(fullPath) {
       to
     },
     tableNo,
-    tableName,
+    tableName: tableName+'_tidsserie',
     area
   }
 }
