@@ -47,7 +47,7 @@ export default class DB {
         return result;
       }
 
-      const [_time, _table, region, ...dimensions] = path;
+      const [_time, _table, region, ..._dimensions] = path;
 
       if (table !== _table) {
         return result;
@@ -59,8 +59,7 @@ export default class DB {
 
       //debug("Leaf: %s=>%s", path.join("."), value);
 
-      const targetPath = ['data', region, ...dimensions];
-
+      const targetPath = ['data', region, ..._dimensions];
 
       //console.log("TIME: ", time, value, existingTimes.indexOf(time))
 
