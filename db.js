@@ -1,10 +1,13 @@
 import pick from 'lodash.pick';
-
 const reduceKV = require("./lib/kv-reduce");
+const chunk = require("lodash.chunk");
 const dotty = require("dotty");
 const debug = require('debug')('imdi-dataset:db');
+const expandQueryDimension = require("./lib/expandQueryDimension");
 
 const YEAR_REGEX = /^\d{4}$/
+
+
 
 export default class DB {
 
@@ -17,20 +20,21 @@ export default class DB {
   }
 
   query(q) {
-    const {table, time, regions, dimensions} = q;
 
-    const subtree = time.reduce((subtree, time) => {
+    const parsedDimensions = q.dimensions.map(expandQueryDimension);
+
+    const subtree = q.time.reduce((subtree, time) => {
       if (!(time in this._tree)) {
         return subtree;
       }
 
-      if (!(table in this._tree[time])) {
+      if (!(q.table in this._tree[time])) {
         return subtree;
       }
 
-      subtree[time] = subtree[time] || {[table]: {}};
+      subtree[time] = subtree[time] || {[q.table]: {}};
 
-      Object.assign(subtree[time][table], pick(this._tree[time][table], regions));
+      Object.assign(subtree[time][q.table], pick(this._tree[time][q.table], q.regions));
 
       return subtree;
     }, {});
@@ -47,35 +51,59 @@ export default class DB {
         return result;
       }
 
-      const [_time, _table, region, ..._dimensions] = path;
+      const [year, table, region, ...rest] = path;
+      const unit = rest.pop();
 
-      if (table !== _table) {
+      const pairwisePath = chunk(rest, 2);
+
+      const targetPath = ['data', region];
+
+      // Todo: get rid of the code duplication below
+
+      const matchesAll = parsedDimensions.every(dim => {
+        return pairwisePath.some(pair => {
+          return pair[0] == dim.label && (
+              dim.include.some(_var => _var == pair[1]) ||
+              (dim.all && !dim.exclude.some(_var => _var == pair[1])
+            )
+          );
+        });
+      });
+
+      if (!matchesAll) {
         return result;
       }
 
-      if (!regions.includes(region)) {
-        return result;
-      }
+      const foundDimensions = parsedDimensions.map(dim => {
+        const foundPair = pairwisePath.find(pair => {
+          return pair[0] == dim.label && (
+              dim.include.some(_var => _var == pair[1]) ||
+              (dim.all && !dim.exclude.some(_var => _var == pair[1])
+            )
+          );
+        });
+        const foundVariable = foundPair && foundPair[1];
+        return foundPair && foundVariable && [dim.label, foundVariable];
+      });
 
-      //debug("Leaf: %s=>%s", path.join("."), value);
+      foundDimensions.forEach(dim => {
+        targetPath.push(dim[0], dim[1]);
+      });
 
-      const targetPath = ['data', region, ..._dimensions];
+      targetPath.push(unit);
 
-      //console.log("TIME: ", time, value, existingTimes.indexOf(time))
-
-      //debug("it #%s: %o", path, result);
-
+      debug("targetPath #%s: %o", targetPath);
 
       const current = dotty.get(result, targetPath) || [];
-      current[time.indexOf(_time)] = value;
+      current[q.time.indexOf(year)] = value;
 
-      dotty.put(result, targetPath, current)
+      dotty.put(result, targetPath, current);
 
       return result;
 
     }, {
-      time: time,
-      table: table
+      time: q.time,
+      table: q.table
     });
 
     return Promise.resolve(data);

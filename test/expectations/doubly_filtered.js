@@ -1,9 +1,9 @@
 export default {
-  pending: true,
+  pending: false,
   query: {
     table: "videregaende_fullfort",
     regions: ["F1"],
-    dimensions: [["kjonn", "1"], ["innvkat_5", "innvandrere"]],
+    dimensions: ["kjonn:1", "innvkat_5:innvandrere"],
     time: ["2011"]
   },
   result: {
@@ -13,7 +13,7 @@ export default {
       "F1": {
         kjonn: {
           "1": {
-            innvkat5: {
+            innvkat_5: {
               innvandrere: {
                 personer: ["139"],
                 prosent: ["39"]

@@ -1,9 +1,8 @@
 export default {
-  pending: true,
   query: {
     table: "videregaende_fullfort",
     regions: ["F1"],
-    dimensions: ["kjonn", "innvkat_5"],
+    dimensions: ["kjonn:0,1", "innvkat_5"],
     time: ["2011"]
   },
   result: {
@@ -13,38 +12,26 @@ export default {
       "F1": {
         kjonn: {
           "0": {
-            innvkat5: {
+            innvkat_5: {
               alle: {
                 personer: ["1226"],
-                prosent: ["71.2"]
+                prosent: ["71,2"]
               },
               innvandrere: {
                 personer: ["371"],
-                prosent: ["68.3"]
+                prosent: ["68,3"]
               }
             }
           },
           "1": {
-            innvkat5: {
+            innvkat_5: {
               alle: {
                 personer: ["1055"],
-                prosent: ["61.3"]
+                prosent: ["61,3"]
               },
               innvandrere: {
                 personer: ["139"],
                 prosent: ["39"]
-              }
-            },
-            "alle": {
-              innvkat5: {
-                alle: {
-                  personer: ["1055"],
-                  prosent: ["61.3"]
-                },
-                innvandrere: {
-                  personer: ["210"],
-                  prosent: ["53.9"]
-                }
               }
             }
           }
