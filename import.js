@@ -7,17 +7,19 @@ import assert from 'assert';
 const debug = require('debug')('imdi-dataset:parser');
 
 const SOURCE_DIRS = [
-  path.join(__dirname, 'import', 'leveranse-2-fra-imdi'),
-  path.join(__dirname, 'import', 'leveranse-3-fra-imdi')
+  path.join(__dirname, 'import', 'komplett-7.mars')
 ];
 
 const OUTPUT_DIR = path.join(__dirname, 'out');
 
 // A few discrepancies in source files
 const AREA_NUMBER_ALIASES = {
-  'naringsregion': [
+  naringsregion: [
     'naringsgregion_nr',
     'n�ringsregion_nr'
+  ],
+  kommune: [
+    'kommune_nr'
   ]
 };
 
@@ -161,6 +163,7 @@ const datasets = files
 
         let areaNumberKey = `${area}_nr`;
         if (!(areaNumberKey in entry)) {
+          assert(area in AREA_NUMBER_ALIASES, `Expected AREA_NUMBER_ALIASES.${area} to be an array that includes ${areaNumberKey}`)
           areaNumberKey = AREA_NUMBER_ALIASES[area].find(alias => alias in entry);
         }
 
