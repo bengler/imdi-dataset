@@ -13,7 +13,7 @@ const SOURCE_DIRS = [
 const OUTPUT_DIR = path.join(__dirname, 'out');
 
 // A few discrepancies in source files
-const AREA_NUMBER_ALIASES = {
+const REGION_NUMBER_ALIASES = {
   naringsregion: [
     'naringsgregion_nr',
     'n�ringsregion_nr'
@@ -30,7 +30,7 @@ function padleft(str, len, padchar=" ") {
   return str;
 }
 
-const AREA_NORMALIZERS = {
+const REGION_NORMALIZERS = {
   naringsregion: (n) => `N${padleft(n, 2, '0')}`,
   kommune: (n) => `K${padleft(n, 4, '0')}`,
   fylke: (n) => `F${padleft(n, 2, '0')}`,
@@ -157,28 +157,28 @@ const datasets = files
     ))
     .flatMap(dataset => {
 
-      const {rows, tableName, area, year} = dataset;
+      const {rows, tableName, regionType, year} = dataset;
 
       return rows.map(entry => {
 
-        let areaNumberKey = `${area}_nr`;
-        if (!(areaNumberKey in entry)) {
-          assert(area in AREA_NUMBER_ALIASES, `Expected AREA_NUMBER_ALIASES.${area} to be an array that includes ${areaNumberKey}`)
-          areaNumberKey = AREA_NUMBER_ALIASES[area].find(alias => alias in entry);
+        let regionNumberKey = `${regionType}_nr`;
+        if (!(regionNumberKey in entry)) {
+          assert(regionType in REGION_NUMBER_ALIASES, `Expected REGION_NUMBER_ALIASES.${regionType} to be an array that includes ${regionNumberKey}`)
+          regionNumberKey = REGION_NUMBER_ALIASES[regionType].find(alias => alias in entry);
         }
 
-        assert(areaNumberKey !== '', `Unable to resolve area number key for entry ${JSON.stringify(entry)}`)
+        assert(regionNumberKey !== '', `Unable to resolve region number key for entry ${JSON.stringify(entry)}`)
 
-        //debug("Area number key: %s", areaNumberKey)
+        //debug("Region number key: %s", regionNumberKey)
 
-        const areaNo = entry[areaNumberKey];
+        const regionNo = entry[regionNumberKey];
 
-        if (!areaNo) {
+        if (!regionNo) {
           debug(
-            `warning: %s: Expected area entry number property "%s" to be a property of %o.
+            `warning: %s: Expected region entry number property "%s" to be a property of %o.
             Skipping.`,
             dataset.basename,
-            areaNumberKey,
+            regionNumberKey,
             entry
           );
           return null;
@@ -189,7 +189,7 @@ const datasets = files
           .reduce((transformedRow, key) => {
             const tail = key.split(".");
 
-            const normalizedNo = AREA_NORMALIZERS[area](areaNo);
+            const normalizedNo = REGION_NORMALIZERS[regionType](regionNo);
             const newKey = [year, tableName, normalizedNo, ...tail].join(".");
             //debug("%s# %s => %s", "", key, newKey)
             transformedRow[newKey] = entry[key];
@@ -234,7 +234,7 @@ function createDatasetFromFilename(fullPath) {
   const basename = path.basename(fullPath);
   const extname = path.extname(basename);
 
-  const [tableNo, tableName, area, year]  = path.basename(basename, extname)
+  const [tableNo, tableName, regionType, year]  = path.basename(basename, extname)
     // some files are suffixed with a version (e.g. _v2) that we ignore
     .replace(/_v\d+$/, '')
     .split("-");
@@ -244,7 +244,7 @@ function createDatasetFromFilename(fullPath) {
     path: fullPath,
     tableNo,
     tableName,
-    area,
+    regionType,
     year
   }
 }

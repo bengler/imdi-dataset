@@ -135,8 +135,8 @@ const ROW_TRANSFORMERS = {
 
 function transformRow(dataset) {
   return function transformRow(row) {
-    const {area} = dataset;
-    return ROW_TRANSFORMERS[area](row, dataset)
+    const {regionType} = dataset;
+    return ROW_TRANSFORMERS[regionType](row, dataset)
   }
 }
 
@@ -144,7 +144,7 @@ function createDatasetFromFilename(fullPath) {
   const basename = path.basename(fullPath);
   const extname = path.extname(basename);
 
-  const [tableNo, tableName, area, years]  = path.basename(basename, extname)
+  const [tableNo, tableName, regionType, years]  = path.basename(basename, extname)
     // some files are suffixed with a version (e.g. _v2) that we ignore
     .replace(/v\d+$/, '')
     .split("-");
@@ -160,7 +160,7 @@ function createDatasetFromFilename(fullPath) {
     },
     tableNo,
     tableName: tableName+'_tidsserie',
-    area
+    regionType
   }
 }
 
