@@ -1,0 +1,23 @@
+Bydel nr & navn;bydel_nr;"Bydel
+navn";innvgrunn_5.alle;innvgrunn_5.arbeid;innvgrunn_5.familie;innvgrunn_5.flukt;innvgrunn_5.annet_uoppgitt;innvgrunn_5.alle;innvgrunn_5.arbeid;innvgrunn_5.familie;innvgrunn_5.flukt;innvgrunn_5.annet_uoppgitt;innvgrunn_5.alle;innvgrunn_5.arbeid;innvgrunn_5.familie;innvgrunn_5.flukt;innvgrunn_5.annet_uoppgitt;innvgrunn_5.alle;innvgrunn_5.arbeid;innvgrunn_5.familie;innvgrunn_5.flukt;innvgrunn_5.annet_uoppgitt;innvgrunn_5.alle;innvgrunn_5.arbeid;innvgrunn_5.familie;innvgrunn_5.flukt;innvgrunn_5.annet_uoppgitt;innvgrunn_5.alle;innvgrunn_5.arbeid;innvgrunn_5.familie;innvgrunn_5.flukt;innvgrunn_5.annet_uoppgitt
+Nedbrytninger;;;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.0;kjonn.0;kjonn.0;kjonn.0;kjonn.0;kjonn.0;kjonn.0;kjonn.0;kjonn.0;kjonn.0
+;;;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent
+0301 Oslo;301;Oslo;85579;21766;13693;21225;28895;64,5;77,6;58,6;54,5;68,3;48843;15864;5996;12114;14869;69,7;77,8;71,9;58,8;71,9;36736;5902;7697;9111;14026;58,7;77,3;51,3;49,7;64,9
+030101 Gamle Oslo;30101;Gamle Oslo;7642;1822;1144;2113;2563;60,9;77,8;55,8;47;70,1;4567;1337;498;1328;1404;65,8;78,9;64,4;53,2;71,2;3075;485;646;785;1159;54,8;75,1;50,6;39,2;68,8
+030102 Grünerløkka;30102;Grünerløkka;8722;2542;1086;1763;3331;66,6;78;57,2;50,6;74,9;5207;1838;478;1062;1829;70,3;78;68,4;54,1;76,5;3515;704;608;701;1502;61,9;77,9;50,8;46,1;73,1
+030103 Sagene;30103;Sagene;4375;1142;593;903;1737;62,4;80,8;53,6;43,9;71,4;2433;786;244;526;877;64,6;80,3;60;46,8;69,8;1942;356;349;377;860;59,8;82;49,9;40,4;73
+030104 St. Hanshaugen;30104;St. Hanshaugen;5320;1696;547;709;2368;71,4;80,5;58,3;52;77,7;3072;1226;220;410;1216;73,1;81,5;64,1;51,3;78,1;2248;470;327;299;1152;69,1;78,2;54,9;53,1;77,2
+030105 Frogner;30105;Frogner;8266;2852;827;765;3822;72,3;82,4;50,7;52,9;78,1;4536;1991;266;394;1885;76,8;82,8;63,2;51,9;81,3;3730;861;561;371;1937;67,5;81,5;46,4;54;75,3
+030106 Ullern;30106;Ullern;2822;1020;369;312;1121;71,2;81,3;57,6;58,6;72,9;1477;715;110;160;492;77,1;81,3;66,7;59,7;81,7;1345;305;259;152;629;65,6;81,3;54,4;57,6;67,3
+030107 Vestre Aker;30107;Veste Aker;3729;1345;507;350;1527;67,2;80;58,7;51,5;65,8;1892;959;142;188;603;75,7;79,7;71;56,3;79,2;1837;386;365;162;924;60,2;80,6;55;46,8;59,2
+030108 Nordre Aker;30108;Nordre Aker;4064;1135;503;553;1873;64,8;80,4;60,7;54,7;61,9;2209;816;181;309;903;69;82,6;68,6;55,9;64,7;1855;319;322;244;970;60,4;75,4;57,1;53,3;59,6
+030109 Bjerke;30109;Bjerke;5151;1326;893;1740;1192;64,1;79,2;61,6;56;65,9;3137;1019;430;1009;679;71;80,5;77,8;62;70;2014;307;463;731;513;55,6;75,2;51,7;49,4;61,1
+030110 Grorud;30110;Grorud;4801;769;1074;2055;903;64,4;77,9;64,5;61,5;62;2667;540;499;1151;477;70,3;77,7;75,7;67;66,1;2134;229;575;904;426;58,4;78,4;57,2;55,7;58
+030111 Stovner;30111;Stovner;5564;919;1165;2244;1236;61,9;78,8;60,7;59,1;58,9;3331;719;610;1294;708;71,1;80;80,2;66,3;66;2233;200;555;950;528;52;74,9;47,9;51,4;51,6
+030112 Alna;30112;Alna;8759;1408;1941;3351;2059;62,5;81;61,2;59,3;59,6;5016;1037;969;1890;1120;70,1;81;78,3;64,8;65,3;3743;371;972;1461;939;54,5;81;50,3;53,4;54
+030113 Østensjø;30113;Østensjø;4689;1017;931;1377;1364;66,7;82;61,6;59;70,3;2548;728;390;740;690;72,9;82,4;75,9;64;73,4;2141;289;541;637;674;60,6;81;54,2;54;67,5
+030114 Nordstrand;30114;Nordstrand;3800;1170;567;645;1418;69,8;79;64,4;56,2;73,2;2062;853;223;337;649;74,8;80;76,4;59,3;78;1738;317;344;308;769;64,7;76,4;58,4;53,2;69,6
+030115 Søndre Nordstrand;30115;Søndre Nordstrand;6364;1042;1426;2132;1764;60,4;76,6;58,9;56,6;59;3645;815;680;1158;992;68,9;77,9;76,5;62,5;66,2;2719;227;746;974;772;51,7;72,1;48,7;50,8;51,7
+030116 Sentrum;30116;Sentrum;36;8;5;11;12;67,9;100;83,3;64,7;54,5;20;8;1;6;5;66,7;100;50;60;50;16;0;4;5;7;69,6; . ;100;71,4;58,3
+030117 Marka;30117;Marka;92;37;14;3;38;73;72,5;63,6;60;79,2;51;28;4;3;16;78,5;80;66,7;60;84,2;41;9;10;0;22;67,2;56,3;62,5;0;75,9
+030199 Uoppgitt bydel Oslo;30199;Uoppgitt bydel Oslo;1383;516;101;199;567;38,3;37;28,9;28,6;48,3;973;449;51;149;324;38,4;37,2;32,5;29,1;49,4;410;67;50;50;243;37,9;35,6;26;27,3;46,8

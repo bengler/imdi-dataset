@@ -1,0 +1,23 @@
+Bydel nr & navn;bydel_nr;"Bydel
+navn";innvkat_3.alle;innvkat_3.alle;innvkat_3.alle;innvkat_3.befolkningen_ellers;innvkat_3.befolkningen_ellers;innvkat_3.befolkningen_ellers;innvkat_3.innvandrere;innvkat_3.innvandrere;innvkat_3.innvandrere;innvkat_3.alle;innvkat_3.alle;innvkat_3.alle;innvkat_3.befolkningen_ellers;innvkat_3.befolkningen_ellers;innvkat_3.befolkningen_ellers;innvkat_3.innvandrere;innvkat_3.innvandrere;innvkat_3.innvandrere
+;;;aldersinndeling_etter_grskole.alle;aldersinndeling_etter_grskole.16-25;aldersinndeling_etter_grskole.26-66;aldersinndeling_etter_grskole.alle;aldersinndeling_etter_grskole.16-25;aldersinndeling_etter_grskole.26-66;aldersinndeling_etter_grskole.alle;aldersinndeling_etter_grskole.16-25;aldersinndeling_etter_grskole.26-66;aldersinndeling_etter_grskole.alle;aldersinndeling_etter_grskole.16-25;aldersinndeling_etter_grskole.26-66;aldersinndeling_etter_grskole.alle;aldersinndeling_etter_grskole.16-25;aldersinndeling_etter_grskole.26-66;aldersinndeling_etter_grskole.alle;aldersinndeling_etter_grskole.16-25;aldersinndeling_etter_grskole.26-66
+Nedbrytninger;;;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent
+0301 Oslo;301;Oslo;88461;11211;77250;45349;6223;39126;43112;4988;38124;19,5;13,6;20,8;14,3;9,7;15,4;31,7;27,3;32,3
+030101 Gamle Oslo;30101;Gamle Oslo;8211;1019;7192;3653;478;3175;4558;541;4017;21,7;16,8;22,7;14,7;11,5;15,3;35,3;28,5;36,5
+030102 Grünerløkka;30102;Grünerløkka;7520;996;6524;3534;526;3008;3986;470;3516;17,8;12,6;19;12,3;9,4;13;29,8;20,9;31,6
+030103 Sagene;30103;Sagene;5357;601;4756;3003;339;2664;2354;262;2092;17,3;11,6;18,5;12,6;8,2;13,6;32,9;24,8;34,3
+030104 St. Hanshaugen;30104;St. Hanshaugen;4292;590;3702;2380;324;2056;1912;266;1646;14,8;9,5;16,2;11,1;6,6;12,4;25,1;20,6;26
+030105 Frogner;30105;Frogner;7307;927;6380;4372;555;3817;2935;372;2563;17,3;11,1;18,9;14,3;8,4;15,9;25,3;21,4;26
+030106 Ullern;30106;Ullern;3255;377;2878;2201;252;1949;1054;125;929;15,9;12,4;16,6;13,4;9,4;14,2;26,1;33,2;25,4
+030107 Vestre Aker;30107;Veste Aker;4945;687;4258;3257;426;2831;1688;261;1427;16,4;13,1;17,1;13,4;9,3;14,3;29,7;40,1;28,4
+030108 Nordre Aker;30108;Nordre Aker;4442;775;3667;2887;389;2498;1555;386;1169;13,5;11,5;14;10,9;7;11,9;24,4;31,9;22,6
+030109 Bjerke;30109;Bjerke;4377;545;3832;1729;263;1466;2648;282;2366;21,4;15,8;22,6;14,3;10,8;15,1;31,9;27,8;32,5
+030110 Grorud;30110;Grorud;4553;558;3995;2089;328;1761;2464;230;2234;25;16,7;26,8;19,9;13,5;21,8;31,8;25,2;32,7
+030111 Stovner;30111;Stovner;5468;658;4810;2255;346;1909;3213;312;2901;26,7;16,1;29,3;20,2;11,6;23,3;34,5;28,5;35,3
+030112 Alna;30112;Alna;8449;926;7523;3530;505;3025;4919;421;4498;25,8;16,1;27,8;19,3;12,1;21,4;34;27;34,9
+030113 Østensjø;30113;Østensjø;5467;611;4856;3314;408;2906;2153;203;1950;17,3;11,9;18,4;13,6;9,3;14,6;29,7;28;29,9
+030114 Nordstrand;30114;Nordstrand;5006;610;4396;3473;415;3058;1533;195;1338;15,7;11,1;16,6;13,2;8,6;14,2;27,3;31,4;26,8
+030115 Søndre Nordstrand;30115;Søndre Nordstrand;6375;851;5524;2468;514;1954;3907;337;3570;25,1;16,3;27,4;17,1;12,7;18,8;35,7;28,7;36,6
+030116 Sentrum;30116;Sentrum;14; : ; : ; : ; : ; : ;10; : ; : ;10; : ; : ; : ; : ; : ;18,5; : ; : 
+030117 Marka;30117;Marka;171;24;147;139;17;122;32;7;25;15,1;12,6;15,6;13,9;9,8;14,8;24,2;38,9;21,9
+030199 Uoppgitt bydel Oslo;30199;Uoppgitt bydel Oslo;3252;454;2798;1061;138;923;2191;316;1875;49;37,9;51,4;35,7;23,9;38,5;59,8;51;61,6

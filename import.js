@@ -7,10 +7,10 @@ import assert from 'assert';
 const debug = require('debug')('imdi-dataset:parser');
 
 const SOURCE_DIRS = [
-  path.join(__dirname, 'import', 'komplett-7.mars')
+  path.join(__dirname, 'import', 'datasettet per 150407')
 ];
 
-const OUTPUT_DIR = path.join(__dirname, 'out');
+const OUTPUT_DIR = path.join(__dirname, 'tmp');
 
 // A few discrepancies in source files
 const REGION_NUMBER_ALIASES = {

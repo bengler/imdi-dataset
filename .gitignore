@@ -1,5 +1,4 @@
-import
-out
-tmp
 node_modules
 .DS_Store
+tmp/*
+!tmp/.gitkeep

@@ -1,0 +1,25 @@
+Fylke. nr ;fylke_nr;"Fylke.
+navn";botid_3.alle;botid_3.0-4;botid_3.5+;botid_3.0-4;botid_3.0-4;botid_3.5+;botid_3.5+;botid_3.alle;botid_3.0-4;botid_3.5+;botid_3.0-4;botid_3.0-4;botid_3.5+;botid_3.5+
+Nedbrytninger;;;forste_bosettingskommune.alle;forste_bosettingskommune.alle;forste_bosettingskommune.alle;forste_bosettingskommune.ja;forste_bosettingskommune.nei;forste_bosettingskommune.ja;forste_bosettingskommune.nei;forste_bosettingskommune.alle;forste_bosettingskommune.alle;forste_bosettingskommune.alle;forste_bosettingskommune.ja;forste_bosettingskommune.nei;forste_bosettingskommune.ja;forste_bosettingskommune.nei
+Type tall;;;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent
+00 Hele landet;0;Hele landet;179534;42559;136975;30196;4351;52035;53582;100;23,7;76,3;16,8;2,4;29;29,8
+01 Østfold;1;Østfold;12987;1733;11254;1044;226;2205;6824;100;13,3;86,7;8;1,7;17;52,5
+02 Akershus;2;Akershus;21172;3340;17832;2315;351;4516;8744;100;15,8;84,2;10,9;1,7;21,3;41,3
+03 Oslo;3;Oslo;44619;4388;40231;2377;716;11401;17148;100;9,8;90,2;5,3;1,6;25,6;38,4
+04 Hedmark;4;Hedmark;5068;1862;3206;1253;204;1584;1021;100;36,7;63,3;24,7;4;31,3;20,1
+05 Oppland;5;Oppland;5134;2100;3034;1461;257;1738;819;100;40,9;59,1;28,5;5;33,9;16
+06 Buskerud        ;6;Buskerud        ;10813;2364;8449;1641;269;2773;4049;100;21,9;78,1;15,2;2,5;25,6;37,4
+07 Vestfold ;7;Vestfold ;7290;1352;5938;897;185;2173;2594;100;18,5;81,5;12,3;2,5;29,8;35,6
+08 Telemark;8;Telemark;6465;2091;4374;1658;130;2339;1394;100;32,3;67,7;25,6;2;36,2;21,6
+09 Aust Agder;9;Aust Agder;3574;1137;2437;942;74;1546;596;100;31,8;68,2;26,4;2,1;43,3;16,7
+10 Vest-Agder;10;Vest-Agder;7962;2055;5907;1508;231;3324;1585;100;25,8;74,2;18,9;2,9;41,7;19,9
+11 Rogaland;11;Rogaland;13434;3135;10299;2230;332;4688;3534;100;23,3;76,7;16,6;2,5;34,9;26,3
+12 Hordaland ;12;Hordaland ;13008;3483;9525;2677;241;4959;2319;100;26,8;73,2;20,6;1,9;38,1;17,8
+14 Sogn og Fjordane;14;Sogn og Fjordane;2121;1192;929;818;101;590;147;100;56,2;43,8;38,6;4,8;27,8;6,9
+15 Møre og Romsdal;15;Møre og Romsdal;4623;2083;2540;1540;206;1458;627;100;45,1;54,9;33,3;4,5;31,5;13,6
+16 Sør-Trøndelag;16;Sør-Trøndelag;7427;2049;5378;1682;125;3198;1152;100;27,6;72,4;22,6;1,7;43,1;15,5
+17 Nord-Trøndelag;17;Nord-Trøndelag;2813;1644;1169;1320;120;777;217;100;58,4;41,6;46,9;4,3;27,6;7,7
+18 Nordland;18;Nordland;5709;3457;2252;2493;319;1533;348;100;60,6;39,4;43,7;5,6;26,9;6,1
+19 Troms ;19;Troms ;3481;2040;1441;1513;186;770;342;100;58,6;41,4;43,5;5,3;22,1;9,8
+20 Finnmark;20;Finnmark;1834;1054;780;827;78;463;122;100;57,5;42,5;45,1;4,3;25,2;6,7
+99 Uoppgitt fylke;99;Uoppgitt fylke;0;0;0;0;0;0;0;0;0;0;0;0;0;0
