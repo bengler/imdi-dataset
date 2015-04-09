@@ -36,12 +36,12 @@ export default class DB {
     }, {});
 
     debug("Prepared query subtree: ", subtree);
-    const data = reduceKV(subtree, (result, {key, value}, path, tree) => {
+    const data = reduceKV(subtree, (data, {key, value}, path, tree) => {
 
       const isLeaf = typeof value !== 'object' && value !== null && value !== undefined;
 
       if (!isLeaf) {
-        return result;
+        return data;
       }
 
       const [year, region, ...rest] = path;
@@ -50,7 +50,7 @@ export default class DB {
 
       const pairwisePath = chunk(rest, 2);
 
-      const targetPath = ['data', region];
+      const targetPath = [region];
 
       // Todo: get rid of the code duplication below
 
@@ -65,7 +65,7 @@ export default class DB {
       });
 
       if (!matchesAll) {
-        return result;
+        return data;
       }
 
       const foundDimensions = parsedDimensions.map(dim => {
@@ -88,18 +88,19 @@ export default class DB {
 
       debug("Writing leaf node to target path: ", targetPath);
 
-      const current = dotty.get(result, targetPath) || [];
+      const current = dotty.get(data, targetPath) || [];
       current[q.time.indexOf(year)] = value;
 
-      dotty.put(result, targetPath, current);
+      dotty.put(data, targetPath, current);
 
-      return result;
+      return data;
 
-    }, {
+    }, {});
+
+    return Promise.resolve({
       time: q.time,
-      table: q.table
+      table: q.table,
+      data: data
     });
-
-    return Promise.resolve(data);
   }
 }
