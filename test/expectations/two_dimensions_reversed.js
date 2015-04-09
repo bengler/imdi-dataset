@@ -40,8 +40,8 @@ export default {
     }
   },
   tree: {
-    "2011": {
-      "videregaende_fullfort": {
+    "videregaende_fullfort": {
+      "2011": {
         "F1": {
           "innvkat_5": {
             "alle": {

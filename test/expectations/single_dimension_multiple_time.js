@@ -36,8 +36,8 @@ export default {
     }
   },
   tree: {
-    "1986": {
-      "befolkning_hovedgruppe": {
+    "befolkning_hovedgruppe": {
+      "1986": {
         "K0102": {
           "innvkat_5": {
             "alle": {
@@ -81,10 +81,8 @@ export default {
             "personer": "709382"
           }
         }
-      }
-    },
-    "1987": {
-      "befolkning_hovedgruppe": {
+      },
+      "1987": {
         "K0102": {
           "innvkat_5": {
             "alle": {

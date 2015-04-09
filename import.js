@@ -190,7 +190,7 @@ const datasets = files
             const tail = key.split(".");
 
             const normalizedNo = REGION_NORMALIZERS[regionType](regionNo);
-            const newKey = [year, tableName, normalizedNo, ...tail].join(".");
+            const newKey = [tableName, year, normalizedNo, ...tail].join(".");
             //debug("%s# %s => %s", "", key, newKey)
             transformedRow[newKey] = entry[key];
             return transformedRow;

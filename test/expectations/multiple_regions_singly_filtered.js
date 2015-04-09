@@ -44,8 +44,8 @@ export default {
     }
   },
   tree: {
-    "2011": {
-      "videregaende_fullfort": {
+    "videregaende_fullfort": {
+      "2011": {
         "F1": {
           "fylke_nr": "1",
           "innvkat_5": {

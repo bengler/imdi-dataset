@@ -36,8 +36,8 @@ export default {
     }
   },
   tree: {
-    "1986": {
-      "befolkning_hovedgruppe": {
+    "befolkning_hovedgruppe": {
+      "1986": {
         "K0102": {
           "innvkat_5": {
             "alle": {
