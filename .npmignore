@@ -1,5 +1,6 @@
 import
 test
 tmp
+.idea
 node_modules
 .DS_Store
