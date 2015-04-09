@@ -35,6 +35,7 @@ var query = {
   dimensions: ["kjonn:0,1", "innvkat_5"],
   time: ["2011"]
 };
+
 db.query(query)
   .then(function(result) {
     console.log("Result", result);
