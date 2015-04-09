@@ -7,16 +7,24 @@ const expandQueryDimension = require("./lib/expandQueryDimension");
 
 const YEAR_REGEX = /^\d{4}$/
 
-
+function isYear(str) {
+  return YEAR_REGEX.test(str)
+}
 
 export default class DB {
 
   constructor(tree) {
     this._tree = tree;
   }
-
   getAllPossibleTimes() {
-    return Promise.resolve(Object.keys(this._tree).filter(year => YEAR_REGEX.test(year)).sort());
+    return Promise.resolve(Object.keys(this._tree).reduce((acc, table)=> {
+      acc[table] = Object.keys(this._tree[table]).filter(isYear).sort();
+      return acc;
+    }, {}));
+  }
+
+  getAllPossibleTimesForTable(table) {
+    return Promise.resolve(Object.keys(this._tree[table]).filter(isYear).sort());
   }
 
   query(q) {
