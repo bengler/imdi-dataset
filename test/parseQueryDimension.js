@@ -6,27 +6,21 @@ const expandQueryDimension = require("../lib/parseQueryDimension");
 const expectations = {
   'innvkat_5:*': {
     label: "innvkat_5",
-    all: true,
-    include: [],
-    exclude: []
+    all: true
   },
   'innvkat_5': {
     label: "innvkat_5",
-    all: true,
-    include: [],
-    exclude: []
+    all: true
   },
   'kjonn:alle': {
     label: "kjonn",
     all: false,
-    include: ['alle'],
-    exclude: []
+    include: ['alle']
   },
   'kjonn:alle,0,1': {
     label: "kjonn",
     all: false,
     include: ['alle', '0', '1'],
-    exclude: []
   },
   // All with some to include and some exclude
   'kjonn:*,-1,0': {
