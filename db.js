@@ -4,7 +4,7 @@ const chunk = require("lodash.chunk");
 const dotty = require("dotty");
 const assert = require("assert");
 const debug = require('debug')('imdi-dataset:db');
-const parseQueryDimension = require("./lib/parseQueryDimension");
+const QueryDimension = require("./lib/QueryDimension");
 
 const YEAR_REGEX = /^\d{4}$/
 
@@ -40,7 +40,7 @@ export default class DB {
 
     if (Array.isArray(parsedDimensions)) {
       parsedDimensions = parsedDimensions.map(d => {
-        return (typeof d === 'string') ? parseQueryDimension(d) : d;
+        return (typeof d === 'string') ? QueryDimension.parse(d) : d;
       });
     }
 
@@ -78,30 +78,42 @@ export default class DB {
       // Todo: get rid of the code duplication below
 
       const matchesAll = parsedDimensions.every(dim => {
-        const {all, label, include, exclude} = dim;
-
+        const {label, include, exclude} = dim;
+        const matchAny = dim.any || (!include && !exclude)
         return pairwisePath.some(pair => {
-          debug("Pair[0] == label", dim)
-          return pair[0] == label && (
-            (include && include.includes(pair[1])) ||
-            (all && !(exclude && exclude.includes(pair[1]))
-            )
-          );
+          if (pair[0] !== label) {
+            return false;
+          }
+          if (include && include.includes(pair[1])) {
+            return true;
+          }
+          if (exclude && exclude.includes(pair[1])) {
+            return false;
+          }
+          return matchAny;
         });
       });
 
       if (!matchesAll) {
+        debug("Doesnt match all dimensions %o, %o", parsedDimensions, path)
         return data;
       }
 
       const foundDimensions = parsedDimensions.map(dim => {
-        const {all, label, include, exclude} = dim;
+        const {label, include, exclude} = dim;
+        const matchAny = dim.any || (!include && !exclude)
+
         const foundPair = pairwisePath.find(pair => {
-          return pair[0] == label && (
-              (include && include.includes(pair[1])) ||
-              (all && !(exclude && exclude.includes(pair[1]))
-            )
-          );
+          if (pair[0] !== label) {
+            return false;
+          }
+          if (include && include.includes(pair[1])) {
+            return true;
+          }
+          if (exclude && exclude.includes(pair[1])) {
+            return false;
+          }
+          return matchAny;
         });
         const foundVariable = foundPair && foundPair[1];
         return foundPair && foundVariable && [dim.label, foundVariable];
