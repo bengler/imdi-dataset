@@ -2,8 +2,9 @@ import pick from 'lodash.pick';
 const reduceKV = require("./lib/kv-reduce");
 const chunk = require("lodash.chunk");
 const dotty = require("dotty");
+const assert = require("assert");
 const debug = require('debug')('imdi-dataset:db');
-const expandQueryDimension = require("./lib/expandQueryDimension");
+const parseQueryDimension = require("./lib/parseQueryDimension");
 
 const YEAR_REGEX = /^\d{4}$/
 
@@ -29,7 +30,21 @@ export default class DB {
 
   query(q) {
 
-    const parsedDimensions = q.dimensions.map(expandQueryDimension);
+    debug("QUERY", q)
+    let parsedDimensions = q.dimensions;
+
+    if (typeof parsedDimensions === 'string') {
+      debug("PARSED", parsedDimensions)
+      parsedDimensions = parsedDimensions.split(";");
+    }
+
+    if (Array.isArray(parsedDimensions)) {
+      parsedDimensions = parsedDimensions.map(d => {
+        return (typeof d === 'string') ? parseQueryDimension(d) : d;
+      });
+    }
+
+    debug("Parsed dimensions: ", parsedDimensions)
 
     const root = this._tree[q.table];
     debug("Query: ", q);
@@ -63,10 +78,13 @@ export default class DB {
       // Todo: get rid of the code duplication below
 
       const matchesAll = parsedDimensions.every(dim => {
+        const {all, label, include, exclude} = dim;
+
         return pairwisePath.some(pair => {
-          return pair[0] == dim.label && (
-              dim.include.some(_var => _var == pair[1]) ||
-              (dim.all && !dim.exclude.some(_var => _var == pair[1])
+          debug("Pair[0] == label", dim)
+          return pair[0] == label && (
+            (include && include.includes(pair[1])) ||
+            (all && !(exclude && exclude.includes(pair[1]))
             )
           );
         });
@@ -77,10 +95,11 @@ export default class DB {
       }
 
       const foundDimensions = parsedDimensions.map(dim => {
+        const {all, label, include, exclude} = dim;
         const foundPair = pairwisePath.find(pair => {
-          return pair[0] == dim.label && (
-              dim.include.some(_var => _var == pair[1]) ||
-              (dim.all && !dim.exclude.some(_var => _var == pair[1])
+          return pair[0] == label && (
+              (include && include.includes(pair[1])) ||
+              (all && !(exclude && exclude.includes(pair[1]))
             )
           );
         });

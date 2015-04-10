@@ -1,7 +1,7 @@
 const debug = require('debug')('imdi-dataset:db');
 const assert = require('chai').assert;
 
-const expandQueryDimension = require("../lib/expandQueryDimension");
+const expandQueryDimension = require("../lib/parseQueryDimension");
 
 const expectations = {
   'innvkat_5:*': {
@@ -37,11 +37,11 @@ const expectations = {
   }
 };
 
-describe('Query dimension expanding', ()=> {
+describe('Query dimension parsing', ()=> {
   Object.keys(expectations).forEach(queryDimension => {
     const expectation = expectations[queryDimension];
     describe(`Query dimension "${queryDimension}"`, () => {
-      it(`expands to ${JSON.stringify(expectation)}`, () => {
+      it(`parses to to ${JSON.stringify(expectation)}`, () => {
         assert.deepEqual(expandQueryDimension(queryDimension), expectation)
       })
     })
