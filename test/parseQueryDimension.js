@@ -24,6 +24,14 @@ const expectations = {
     label: "kjonn",
     include: ['alle', '0', '1']
   },
+  'kjonn : alle, 0 ,1  ': {
+    label: "kjonn",
+    include: ['alle', '0', '1']
+  },
+  'kjonn : ': {
+    label: "kjonn",
+    all: true
+  },
   // All with some to include and some exclude
   'kjonn:*,-1,0': {
     label: "kjonn",
