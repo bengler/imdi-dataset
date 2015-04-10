@@ -8,19 +8,21 @@ const expectations = {
     label: "innvkat_5",
     all: true
   },
+  ' innvkat_5': {
+    label: "innvkat_5",
+    all: true
+  },
   'innvkat_5': {
     label: "innvkat_5",
     all: true
   },
   'kjonn:alle': {
     label: "kjonn",
-    all: false,
     include: ['alle']
   },
   'kjonn:alle,0,1': {
     label: "kjonn",
-    all: false,
-    include: ['alle', '0', '1'],
+    include: ['alle', '0', '1']
   },
   // All with some to include and some exclude
   'kjonn:*,-1,0': {
