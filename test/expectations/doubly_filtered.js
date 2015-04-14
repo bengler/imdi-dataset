@@ -33,15 +33,15 @@ export default {
               "kjonn": {
                 "0": {
                   "personer": "1226",
-                  "prosent": "71,2"
+                  "prosent": "71.2"
                 },
                 "1": {
                   "personer": "1055",
-                  "prosent": "61,3"
+                  "prosent": "61.3"
                 },
                 "alle": {
                   "personer": "2281",
-                  "prosent": "66,3"
+                  "prosent": "66.3"
                 }
               }
             },
@@ -49,7 +49,7 @@ export default {
               "kjonn": {
                 "0": {
                   "personer": "371",
-                  "prosent": "68,3"
+                  "prosent": "68.3"
                 },
                 "1": {
                   "personer": "139",
@@ -57,7 +57,7 @@ export default {
                 },
                 "alle": {
                   "personer": "210",
-                  "prosent": "53,9"
+                  "prosent": "53.9"
                 }
               }
             }
