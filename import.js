@@ -7,7 +7,7 @@ import assert from 'assert';
 const debug = require('debug')('imdi-dataset:parser');
 
 const SOURCE_DIRS = [
-  path.join(__dirname, 'import', 'datasettet per 150407')
+  path.join(__dirname, 'import', 'files')
 ];
 
 const OUTPUT_DIR = path.join(__dirname, 'tmp');
