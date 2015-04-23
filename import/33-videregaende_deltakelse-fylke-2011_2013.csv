@@ -1,0 +1,24 @@
+Fylke nr & navn;fylke_nr;Fylkenavn;innvkat_4.alle;innvkat_4.innvandrere;innvkat_4.bef_u_innv_og_norskf;innvkat_4.norskfodte_m_innvf;innvkat_4.alle;innvkat_4.innvandrere;innvkat_4.bef_u_innv_og_norskf;innvkat_4.norskfodte_m_innvf;innvkat_4.alle;innvkat_4.innvandrere;innvkat_4.bef_u_innv_og_norskf;innvkat_4.norskfodte_m_innvf;innvkat_4.alle;innvkat_4.innvandrere;innvkat_4.bef_u_innv_og_norskf;innvkat_4.norskfodte_m_innvf;innvkat_4.alle;innvkat_4.innvandrere;innvkat_4.bef_u_innv_og_norskf;innvkat_4.norskfodte_m_innvf;innvkat_4.alle;innvkat_4.innvandrere;innvkat_4.bef_u_innv_og_norskf;innvkat_4.norskfodte_m_innvf
+Nedbrytninger;;;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.alle;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.1;kjonn.0;kjonn.0;kjonn.0;kjonn.0;kjonn.0;kjonn.0;kjonn.0;kjonn.0
+Kjønn;;;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent
+00 Hele landet;0;Hele landet;622961;39057;559436;24468;100;6,269573858;89,80273243;3,927693708;326347;20838;292816;12693;100;6,385227994;89,72535369;3,889418319;296614;18219;266620;11775;100;6,142326391;89,88786773;3,969805876
+01 Østfold;1;Østfold;35106;3264;30377;1465;100;9,3;86,5;4,2;18230;1711;15698;821;100;9,4;86,1;4,5;16876;1553;14679;644;100;9,2;87;3,8
+02 Akershus;2;Akershus;72703;4706;64317;3680;100;6,5;88,5;5,1;38011;2500;33599;1912;100;6,6;88,4;5;34692;2206;30718;1768;100;6,4;88,5;5,1
+03 Oslo;3;Oslo;51570;6297;34756;10517;100;12,2;67,4;20,4;26647;3347;17856;5444;100;12,6;67;20,4;24923;2950;16900;5073;100;11,8;67,8;20,4
+04 Hedmark;4;Hedmark;23713;1147;22205;361;100;4,8;93,6;1,5;12460;618;11658;184;100;5;93,6;1,5;11253;529;10547;177;100;4,7;93,7;1,6
+05 Oppland;5;Oppland;23276;1132;21858;286;100;4,9;93,9;1,2;12217;615;11476;126;100;5;93,9;1;11059;517;10382;160;100;4,7;93,9;1,4
+06 Buskerud;6;Buskerud;31711;2565;27657;1489;100;8,1;87,2;4,7;16492;1397;14328;767;100;8,5;86,9;4,7;15219;1168;13329;722;100;7,7;87,6;4,7
+07 Vestfold;7;Vestfold;30562;1969;27749;844;100;6,4;90,8;2,8;16061;1053;14561;447;100;6,6;90,7;2,8;14501;916;13188;397;100;6,3;90,9;2,7
+08 Telemark;8;Telemark;21902;1538;19808;556;100;7;90,4;2,5;11468;839;10324;305;100;7,3;90;2,7;10434;699;9484;251;100;6,7;90,9;2,4
+09 Aust-Agder;9;Aust-Agder;14749;956;13513;280;100;6,5;91,6;1,9;7677;490;7045;142;100;6,4;91,8;1,8;7072;466;6468;138;100;6,6;91,5;2
+10 Vest-Agder;10;Vest-Agder;24221;1522;21978;721;100;6,3;90,7;3;12716;807;11540;369;100;6,3;90,8;2,9;11505;715;10438;352;100;6,2;90,7;3,1
+11 Rogaland;11;Rogaland;59280;3249;54427;1604;100;5,5;91,8;2,7;31206;1652;28693;861;100;5,3;91,9;2,8;28074;1597;25734;743;100;5,7;91,7;2,6
+12 Hordaland;12;Hordaland;63878;3383;59247;1248;100;5,3;92,8;2;33608;1774;31234;600;100;5,3;92,9;1,8;30270;1609;28013;648;100;5,3;92,5;2,1
+14 Sogn og Fjordane;14;Sogn og Fjordane;15874;837;14895;142;100;5,3;93,8;0,9;8500;456;7976;68;100;5,4;93,8;0,8;7374;381;6919;74;100;5,2;93,8;1
+15 Møre og Romsdal;15;Møre og Romsdal;34040;1580;32141;319;100;4,6;94,4;0,9;18073;881;17035;157;100;4,9;94,3;0,9;15967;699;15106;162;100;4,4;94,6;1
+16 Sør-Trøndelag;16;Sør-Trøndelag;36943;1654;34647;642;100;4,5;93,8;1,7;19229;903;17979;347;100;4,7;93,5;1,8;17714;751;16668;295;100;4,2;94,1;1,7
+17 Nord-Trøndelag;17;Nord-Trøndelag;18733;706;17959;68;100;3,8;95,9;0,4;9813;376;9408;29;100;3,8;95,9;0,3;8920;330;8551;39;100;3,7;95,9;0,4
+18 Nordland;18;Nordland;31684;1232;30353;99;100;3,9;95,8;0,3;16483;678;15765;40;100;4,1;95,6;0,2;15201;554;14588;59;100;3,6;96;0,4
+19 Troms Romsa;19;Troms Romsa;20483;728;19671;84;100;3,6;96;0,4;10957;405;10504;48;100;3,7;95,9;0,4;9526;323;9167;36;100;3,4;96,2;0,4
+20 Finnmark Finnmárku;20;Finnmark Finnmárku;9677;485;9154;38;100;5;94,6;0,4;5118;289;4813;16;100;5,6;94;0,3;4559;196;4341;22;100;4,3;95,2;0,5
+99 Uoppgitt fylke;99;Uoppgitt fylke;2856;107;2724;25;100;3,7;95,4;0,9;1381;47;1324;10;100;3,4;95,9;0,7;1475;60;1400;15;100;4,1;94,9;1

@@ -1,0 +1,89 @@
+"Næringsregion 
+nr & navn";naringsregion_nr;"Næringsregion
+navn";innvkat_3.alle;innvkat_3.befolkningen_ellers;innvkat_3.innvandrere;innvkat_3.innvandrere;innvkat_3.innvandrere;innvkat_3.alle;innvkat_3.befolkningen_ellers;innvkat_3.innvandrere;innvkat_3.innvandrere;innvkat_3.innvandrere
+Nedbrytninger;;;vreg_3.alle;vreg_3.alle;vreg_3.alle;vreg_3.1;vreg_3.2;vreg_3.alle;vreg_3.alle;vreg_3.alle;vreg_3.1;vreg_3.2
+;;;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent;enhet.prosent
+01 Halden;1;Halden;4962;4022;940;320;620;25;23,2;37,9;29,7;44,3
+02 Indre Østfold;2;Indre Østfold;8765;6825;1940;755;1185;22,1;20,2;33;25,3;40,9
+03 Mosseregionen;3;Mosseregionen;8748;6639;2109;728;1381;22,7;20,4;35,3;26,2;43,1
+04 Nedre Glomma;4;Nedre Glomma;21739;16586;5153;1285;3868;24,2;21,9;36,8;24,3;44,4
+05 Akershus Vest;5;Akershus Vest;17905;11415;6490;2673;3817;15,6;12,5;27,6;21,6;34,2
+06 Follo;6;Follo;14576;10870;3706;1537;2169;16,5;14,6;26,8;21,6;32,2
+07 Nedre Romerike;7;Nedre Romerike;19495;13277;6218;2174;4044;17,3;14,7;28,5;22,8;32,9
+08 Øvre Romerike;8;Øvre Romerike;11996;9299;2697;1216;1481;18,7;17,2;26,9;22,1;32,6
+09 Oslo;9;Oslo;88461;45349;43112;10886;32226;19,5;14,3;31,7;21,5;37,7
+10 Fjellregionen;10;Fjellregionen;1422;1162;260;106;154;14,9;13,4;29,1;19,4;44,1
+11 Glåmdal;11;Glåmdal;9048;7854;1194;435;759;26,2;24,9;39,2;29,3;48,7
+12 Hamarregionen;12;Hamarregionen;12070;10109;1961;744;1217;20,4;19;33,1;25,4;40,8
+13 Sør Østerdal;13;Sør Østerdal;5003;4070;933;347;586;21,6;19,5;39,3;29,7;48,5
+14 Gjøvikregionen;14;Gjøvikregionen;9732;8243;1489;479;1010;21,2;19,9;32,1;22,8;39,8
+15 Hadeland;15;Hadeland;3903;3251;652;232;420;20,4;18,8;35,7;25,3;46,3
+16 Lillehammerregionen;16;Lillehammerregionen;4105;3324;781;307;474;16,2;14,8;28,3;22,6;33,9
+17 Midt-Gudbrandsdal;17;Midt-Gudbrandsdal;1637;1416;221;99;122;19,1;18,1;30;20,1;49,8
+18 Nord-Gudbrandsdal;18;Nord-Gudbrandsdal;2167;1857;310;110;200;17,9;16,5;36,5;23,5;52,5
+19 Valdres;19;Valdres;2092;1642;450;190;260;18;15,8;36,1;24,5;55,3
+20 Drammensregionen;20;Drammensregionen;23380;16343;7037;2291;4746;19,7;17,1;30,6;21,8;37,9
+21 Hallingdal;21;Hallingdal;2100;1536;564;293;271;15,7;13,7;26,2;19,7;40,6
+22 Kongsberg/Numedal;22;Kongsberg/Numedal;3520;2683;837;311;526;16,2;14,5;25,7;18,7;33
+23 Midt-Buskerud;23;Midt-Buskerud;2603;2216;387;181;206;20,4;19,3;31;23,4;43,5
+24 Ringerike/Hole;24;Ringerike/Hole;5077;4104;973;426;547;20,9;19,5;30,2;24,2;37,3
+25 Tønsbergregionen;25;Tønsbergregionen;18296;14922;3374;1394;1980;20,5;19,2;29,6;23,1;37
+26 Sandefjord/Larvik;26;Sandefjord/Larvik;13470;10727;2743;913;1830;22,6;20,9;33,5;23,9;41,9
+27 Grenland;27;Grenland;17797;14334;3463;960;2503;22,3;20,4;35,5;26,1;41,2
+28 Midt-Telemark;28;Midt-Telemark;2297;1873;424;154;270;20,9;19,4;32;23,4;40,4
+29 Øst-Telemark;29;Øst-Telemark;2821;2350;471;179;292;21,8;20,3;33,3;26,1;40,2
+30 Vest-Telemark;30;Vest-Telemark;1448;1247;201;118;83;15,8;15;23,7;19,3;35
+31 Setesdal;31;Setesdal;826;664;162;52;110;18,2;16,6;29,1;19,4;38,2
+32 Arendalregionen;32;Arendalregionen;13557;11108;2449;1012;1437;22,7;21,2;33,6;26,5;41,5
+33 Lister;33;Lister;4282;3515;767;306;461;18,6;17,2;30,9;22,5;41,1
+34 Mandalsregionen;34;Mandalsregionen;3385;2736;649;244;405;20,8;19;35,3;25,2;46,4
+35 Kristiansandregionen;35;Kristiansandregionen;17477;13302;4175;1188;2987;19,6;17,5;32,5;23,5;38,2
+36 Dalane;36;Dalane;2482;1991;491;228;263;15,8;14,3;26,8;21,3;34,4
+37 Haugesundregionen;37;Haugesundregionen;12911;10159;2752;1328;1424;19;17,3;30,4;24,6;39,1
+38 Ryfylke;38;Ryfylke;2172;1733;439;204;235;14,8;13,6;23,2;16,5;35,6
+39 Stavangerregionen;39;Stavangerregionen;31370;21177;10193;4142;6051;14,9;12,6;24,7;18,7;31,8
+40 Bergen;40;Bergen;30983;22088;8895;3543;5352;16,6;14,2;28;22,3;33,6
+41 Bjørnefjorden;41;Bjørnefjorden;2584;2097;487;296;191;16;14,6;26,6;23,2;34,6
+42 Hardanger;42;Hardanger;2380;1910;470;213;257;16,4;14,9;27,4;20,6;37,8
+43 Voss;43;Voss;1271;1034;237;83;154;14,2;12,6;31,5;19,8;46,4
+44 Nordhordland;44;Nordhordland;3578;3059;519;306;213;16,9;16;24,4;20,5;33,4
+45 Osterfjorden;45;Osterfjorden;1310;1112;198;123;75;16,7;15,7;27,1;23,3;36,9
+46 Sunnhordland;46;Sunnhordland;6604;5396;1208;640;568;16,1;14,8;27;22,5;35
+47 Hordaland Vest;47;Hordaland Vest;6787;5674;1113;534;579;16,5;15,3;26,5;21;34,9
+48 HAFS;48;HAFS;918;742;176;117;59;14,2;13;22,7;22,6;22,7
+49 Nordfjord;49;Nordfjord;3047;2373;674;387;287;14,7;13,1;25,8;21,3;36
+50 Sogn;50;Sogn;3061;2490;571;252;319;14,6;13,3;26,2;17,8;41,4
+51 Sunnfjord;51;Sunnfjord;3010;2330;680;237;443;13,8;12;28,3;18,2;40,2
+52 Nordmøre;52;Nordmøre;7627;6343;1284;501;783;19;17,6;31,1;21,4;43,7
+53 Romsdal;53;Romsdal;6228;5132;1096;534;562;16,3;15,2;25,5;20;34,5
+54 Storfjord;54;Storfjord;1517;1133;384;252;132;13,7;12,1;22,2;19,8;28,7
+55 Søre Sunnmøre;55;Søre Sunnmøre;4926;3884;1042;471;571;16,1;14,6;25,6;18,5;37,6
+56 Ålesundregionen;56;Ålesundregionen;7880;6094;1786;1004;782;15,5;14;25,2;22,1;30,6
+57 Fosen;57;Fosen;2994;2668;326;200;126;18,7;17,9;28;24,7;35,8
+58 Hitra/Frøya;58;Hitra/Frøya;1190;938;252;160;92;19,8;20,1;18,6;14,7;34,5
+59 Oppdal/Rennebu;59;Oppdal/Rennebu;1048;903;145;71;74;17,6;16,5;30,1;22,4;44,8
+60 Orkdalregionen;60;Orkdalregionen;2756;2414;342;139;203;19;18;31,6;25,7;37,4
+61 Trondheimsregionen;61;Trondheimsregionen;26064;20213;5851;2088;3763;16,1;14,4;27,9;21,3;33,6
+62 Rørosregionen;62;Rørosregionen;791;704;87;40;47;14,7;14,1;22,4;15,6;35,9
+63 Stjørdalsregionen;63;Stjørdalsregionen;3179;2696;483;154;329;17,7;16,4;32,3;25;37,4
+64 Innherred;64;Innherred;7852;6694;1158;435;723;18,6;17,3;34,2;25,1;43,8
+65 Indre Namdal;65;Indre Namdal;811;673;138;42;96;15,2;13,7;33,5;17,6;55,5
+66 Kystgruppen;66;Kystgruppen;1110;949;161;68;93;17,5;16,4;29,5;21,9;39,6
+67 Midtre Namdal;67;Midtre Namdal;2216;1892;324;96;228;17,1;15,8;32;20,3;42,1
+68 Sør-Helgeland;68;Sør-Helgeland;1638;1420;218;63;155;19,3;18;37,1;23,1;49,2
+69 HALD;69;HALD;1778;1452;326;106;220;21,2;19,5;35,6;23,7;47
+70 Ytre Helgeland;70;Ytre Helgeland;389;359;30;22;8;17,1;17,4;14;13,8;14,5
+71 Mosjøregionen;71;Mosjøregionen;1957;1676;281;55;226;18,7;17,3;36,9;18,2;49,3
+72 Ranaregionen;72;Ranaregionen;4256;3692;564;159;405;20,1;18,9;35,4;22,2;46,1
+73 Salten;73;Salten;9563;8051;1512;498;1014;17,9;16,6;31;22,1;38,7
+74 Ofoten;74;Ofoten;3770;3191;579;226;353;22,2;21,2;30,4;24,8;35,6
+75 Lofoten;75;Lofoten;3231;2627;604;233;371;20,7;19,1;33;23,2;45
+76 Vesterålen;76;Vesterålen;4590;3831;759;255;504;21,9;20,3;35,2;25,4;43,7
+77 Sør-Troms;77;Sør-Troms;4923;4088;835;205;630;20,6;19,1;34,4;21,3;43,1
+78 Midt-Troms;78;Midt-Troms;3760;3197;563;183;380;19,4;18;33,8;22,2;45,1
+79 Tromsøregionen;79;Tromsøregionen;9248;7490;1758;857;901;16,7;15,5;24,8;21,8;28,5
+80 Nord-Troms;80;Nord-Troms;2212;1952;260;98;162;21,5;20,5;34,1;22,4;49,8
+81 Vest-Finnmark;81;Vest-Finnmark;5046;4183;863;438;425;19,9;19,1;24,9;23,2;27,1
+82 Midt-Finnmark;82;Midt-Finnmark;1964;1738;226;143;83;21;20,4;26,7;26,7;26,9
+83 Øst-Finnmark;83;Øst-Finnmark;3271;2408;863;344;519;20,3;18,3;29,3;24;34,4
+Uoppgitt;;;;;;;;;;;;
