@@ -20,6 +20,7 @@ const files = Rx.Observable.from(SOURCE_DIRS)
   .flatMap(dir => {
     return readdir(dir)
       .flatMap(files => Rx.Observable.from(files))
+      .filter(file => !file.startsWith("."))
       .map(file => path.join(dir, file))
   });
 
@@ -144,10 +145,14 @@ function createDatasetFromFilename(fullPath) {
   const basename = path.basename(fullPath);
   const extname = path.extname(basename);
 
+  debug (fullPath, basename, extname);
+
   const [tableNo, tableName, regionType, years]  = path.basename(basename, extname)
     // some files are suffixed with a version (e.g. _v2) that we ignore
     .replace(/v\d+$/, '')
     .split("-");
+
+  debug(tableNo, tableName, regionType, years);
 
   const [from, to] = years.split("_");
 
