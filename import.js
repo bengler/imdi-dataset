@@ -192,7 +192,7 @@ const datasets = files
             const normalizedNo = REGION_NORMALIZERS[regionType](regionNo);
             const newKey = [tableName, year, normalizedNo, ...tail].join(".");
             //debug("%s# %s => %s", "", key, newKey)
-            transformedRow[newKey] = entry[key].replace(",", ".");
+            transformedRow[newKey] = entry[key].replace(",", ".").replace(/\s+/, '');
             return transformedRow;
           }, {});
       })

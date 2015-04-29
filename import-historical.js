@@ -118,7 +118,7 @@ const ROW_TRANSFORMERS = {
           return newRow;
         }
         const newKey = [dataset.tableName, year, 'K'+municpalityNumber, ...tail].join(".");
-        newRow[newKey] = row[key].replace(",", ".");
+        newRow[newKey] = row[key].replace(",", ".").replace(/\s+/, ' ');
         return newRow;
       }, {});
 
