@@ -7,10 +7,10 @@ import assert from 'assert';
 const debug = require('debug')('imdi-dataset:parser');
 
 const SOURCE_DIRS = [
-  path.join(__dirname, 'import', 'files')
+  path.join(__dirname, '..', 'import', 'files')
 ];
 
-const OUTPUT_DIR = path.join(__dirname, 'tmp');
+const OUTPUT_DIR = path.join(__dirname, '..', 'tmp');
 
 // A few discrepancies in source files
 const REGION_NUMBER_ALIASES = {

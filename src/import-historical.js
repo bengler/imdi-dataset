@@ -7,10 +7,10 @@ import assert from 'assert';
 const debug = require('debug')('imdi-dataset:parser');
 
 const SOURCE_DIRS = [
-  path.join(__dirname, 'import', 'historical')
+  path.join(__dirname, '..', 'import', 'historical')
 ];
 
-const OUTPUT_DIR = path.join(__dirname, 'tmp');
+const OUTPUT_DIR = path.join(__dirname, '..', 'tmp');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'historical.json');
 
 
