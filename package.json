@@ -2,7 +2,7 @@
   "name": "@bengler/imdi-dataset",
   "version": "4.1.4",
   "description": "",
-  "main": "./lib/index.js",
+  "main": "./.compiled/index.js",
   "scripts": {
     "import": "DEBUG=imdi-dataset* babel-node ./src/import.js",
     "import-historical": "DEBUG=imdi-dataset* babel-node ./src/import-historical.js",
