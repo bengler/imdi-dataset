@@ -1,7 +1,7 @@
 const debug = require('debug')('imdi-dataset:db');
 const assert = require('chai').assert;
 
-const QueryDimension = require("../lib/QueryDimension");
+const QueryDimension = require("../.compiled/util/QueryDimension");
 
 const EXPECT = {
   parse: {

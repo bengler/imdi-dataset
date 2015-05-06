@@ -18,7 +18,7 @@ const reduced = reduceKV(object, [], (acc, {key, value}, path, root)=> {
 console.log(JSON.stringify(reduced, null, 2));
  */
 
-export default function reduceKV(data, reducer, initial, _path = [], _root = initial) {
+export default function reduceKeyVal(data, reducer, initial, _path = [], _root = initial) {
   return Object.keys(data).reduce((acc, key) => {
     const path = _path.concat(key);
     const value = data[key];
@@ -26,7 +26,7 @@ export default function reduceKV(data, reducer, initial, _path = [], _root = ini
     const reduced = reducer(acc, {key, value}, path, _root);
 
     if (!Array.isArray(value) && typeof value === 'object' && value !== null) {
-      return reduceKV(data[key], reducer, reduced, path, _root)
+      return reduceKeyVal(data[key], reducer, reduced, path, _root)
     }
 
     return reduced;

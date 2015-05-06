@@ -2,15 +2,15 @@
   "name": "@bengler/imdi-dataset",
   "version": "4.1.3",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "import": "DEBUG=imdi-dataset* babel-node --experimental import.js",
-    "import-historical": "DEBUG=imdi-dataset* babel-node --experimental import-historical.js",
-    "make-tree": "DEBUG=imdi-dataset* babel-node --experimental make-tree.js",
+    "import": "DEBUG=imdi-dataset* babel-node ./src/import.js",
+    "import-historical": "DEBUG=imdi-dataset* babel-node ./src/import-historical.js",
+    "make-tree": "DEBUG=imdi-dataset* babel-node  ./src/make-tree.js",
     "all": "npm run import && npm run import-historical && npm run make-tree",
     "test": "mocha -r babel/register test",
-    "prepublish": "rm -Rf .prepublish && mkdir .prepublish && cp -r *.js lib .prepublish/ && babel *.js --out-dir . && babel lib --out-dir lib",
-    "postpublish": "cp -r .prepublish/* . && rm -Rf .prepublish && git status"
+    "prepublish": "babel ./src --out-dir ./.compiled",
+    "start": "babel --watch ./src --out-dir ./.compiled"
   },
   "author": "Bengler AS",
   "license": "ISC",
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "csv-parse": "0.1.0",
-    "babel": "^4.7.16",
+    "babel": "^5.2.16",
     "chai": "^2.1.2",
     "split": "^0.3.3",
     "flat": "^1.5.1",
