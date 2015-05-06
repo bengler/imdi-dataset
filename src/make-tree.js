@@ -12,7 +12,7 @@ const SOURCE_FILES = [
   path.join(__dirname, '..', 'tmp', 'historical.json')
 ];
 
-const OUT_FILE = path.join(__dirname, 'out', 'tree.json');
+const OUT_FILE = path.join(__dirname, '..', 'out', 'tree.json');
 
 const lines = Rx.Observable.from(SOURCE_FILES).flatMap(sourceFile => {
   debug(sourceFile)
