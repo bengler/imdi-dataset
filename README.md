@@ -22,6 +22,12 @@ This will import both exports of single tables and historical exports (i.e. `01_
 
 ## Use as library
 
+Associate npm.bengler.no with @bengler scope:
+
+    npm config set @bengler:registry https://npm.bengler.no
+
+Then install as dependency
+
     npm install --save @bengler/imdi-dataset
 
 And then from code:
