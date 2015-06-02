@@ -10,7 +10,8 @@
     "all": "npm run import && npm run import-historical && npm run make-tree",
     "test": "mocha -r babel/register test",
     "prepublish": "babel ./src --out-dir ./.compiled",
-    "start": "babel --watch ./src --out-dir ./.compiled"
+    "start": "babel --watch ./src --out-dir ./.compiled",
+    "export-flat": "DEBUG=imdi-dataset* babel-node ./src/export-flat-files"
   },
   "author": "Bengler AS",
   "license": "ISC",
@@ -18,6 +19,7 @@
     "bluebird": "^2.9.14",
     "debug": "^2.1.3",
     "dotty": "0.0.2",
+    "json2csv": "^2.3.0",
     "lodash.chunk": "^3.0.0",
     "lodash.pick": "^3.0.0",
     "lodash.uniq": "^3.1.0"
