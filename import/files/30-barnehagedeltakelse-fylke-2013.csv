@@ -1,6 +1,6 @@
 Fylke nr & navn;fylke_nr;"Fylke
 navn";spraak.alle;spraak.minoritet;spraak.minoritet;spraak.minoritet;spraak.minoritet;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;barnikommune.alle;barnikommune.innvandrerbakgr;barnikommune.innvandrerbakgr;barnikommune.innvandrerbakgr;barnikommune.innvandrerbakgr;barnikommune.innvandrerbakgr;barnikommune.innvandrerbakgr;barnikommune.barn_ellers;spraak.alle;spraak.minoritet;spraak.ikke_minoritet
-Nedbrytninger;;;bhgalder.1-5;bhgalder.1-5;bhgalder.1;bhgalder.2;bhgalder.3;bhgalder.4;bhgalder.5;bhgalder.1-5;bhgalder.1-5;bhgalder.1-5;bhgalder.1;bhgalder.2;bhgalder.3;bhgalder.4;bhgalder.5;bhgalder.1-5;bhgalder.1-5;bhgalder.1-5;bhgalder.1-5
+Nedbrytninger;;;bhgalder.1_5;bhgalder.1_5;bhgalder.1;bhgalder.2;bhgalder.3;bhgalder.4;bhgalder.5;bhgalder.1_5;bhgalder.1_5;bhgalder.1_5;bhgalder.1;bhgalder.2;bhgalder.3;bhgalder.4;bhgalder.5;bhgalder.1_5;bhgalder.1_5;bhgalder.1_5;bhgalder.1_5
 ;;;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;Prosent
 00 Hele landet;0;Hele landet;284783;37642;4 016;7 185;8 660;9 099;8 702;247141;316409;49 029;10 166;9 938;10 065;9 731;9 129;267 380;90;76,8;92,4
 01 Østfold;1;Østfold;14273;1935;124;317;446;552;496;12338;16314;2 867;571;552;581;623;540;13 447;87,5;67,5;91,8
