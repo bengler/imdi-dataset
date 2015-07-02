@@ -1,17 +1,17 @@
 "Næringsregion 
 nr & navn";naringsregion_nr;"Næringsregion
 navn";spraak.alle;spraak.minoritet;spraak.minoritet;spraak.minoritet;spraak.minoritet;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;barnikommune.alle;barnikommune.innvandrerbakgr;barnikommune.innvandrerbakgr;barnikommune.innvandrerbakgr;barnikommune.innvandrerbakgr;barnikommune.innvandrerbakgr;barnikommune.innvandrerbakgr;barnikommune.barn_ellers;spraak.alle;spraak.minoritet;spraak.ikke_minoritet
-Nedbrytninger;;;bhgalder.1-5;bhgalder.1-5;bhgalder.1;bhgalder.2;bhgalder.3;bhgalder.4;bhgalder.5;bhgalder.1-5;bhgalder.1-5;bhgalder.1-5;bhgalder.1;bhgalder.2;bhgalder.3;bhgalder.4;bhgalder.5;bhgalder.1-5;bhgalder.1-5;bhgalder.1-5;bhgalder.1-5
+Nedbrytninger;;;bhgalder.1_5;bhgalder.1_5;bhgalder.1;bhgalder.2;bhgalder.3;bhgalder.4;bhgalder.5;bhgalder.1_5;bhgalder.1_5;bhgalder.1_5;bhgalder.1;bhgalder.2;bhgalder.3;bhgalder.4;bhgalder.5;bhgalder.1_5;bhgalder.1_5;bhgalder.1_5;bhgalder.1_5
 ;;;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;Prosent
-01 Halden;1;Halden;1466;126;8;15;34;31;38;1 340;1 719;243;44;45;48;49;57;1 476;85,3;51,9;90,8
-02 Indre Østfold;2;Indre Østfold;3064;383;28;73;99;109;74;2 681;3 520;559;115;110;126;120;88;2 961;87;68,5;90,5
-03 Mosseregionen;3;Mosseregionen;2929;390;27;77;75;100;111;2 539;3 312;551;114;121;101;107;108;2 761;88,4;70,8;92
-04 Nedre Glomma;4;Nedre Glomma;6814;1036;61;152;238;312;273;5 778;7 763;1 514;298;276;306;347;287;6 249;87,8;68,4;92,5
-05 Akershus Vest;5;Akershus Vest;10791;1485;158;294;345;376;312;9 306;11 943;1 921;406;400;387;394;334;10 022;90,4;77,3;92,9
-06 Follo;6;Follo;8247;869;101;173;193;208;194;7 378;8 976;1 095;238;215;223;215;204;7 881;91,9;79,4;93,6
-07 Nedre Romerike;7;Nedre Romerike;9940;1620;157;316;375;404;368;8 320;10 931;2 004;382;414;413;411;384;8 927;90,9;80,8;93,2
-08 Øvre Romerike;8;Øvre Romerike;5916;667;70;106;152;182;157;5 249;6 361;854;173;134;189;195;163;5 507;93;78,1;95,3
-09 Oslo;9;Oslo;36005;9648;807;1 793;2 148;2 453;2 447;26 357;42 353;12 529;2 495;2 564;2 550;2 501;2 419;29 824;85;77;88,4
+01 Halden;01;Halden;1466;126;8;15;34;31;38;1 340;1 719;243;44;45;48;49;57;1 476;85,3;51,9;90,8
+02 Indre Østfold;02;Indre Østfold;3064;383;28;73;99;109;74;2 681;3 520;559;115;110;126;120;88;2 961;87;68,5;90,5
+03 Mosseregionen;03;Mosseregionen;2929;390;27;77;75;100;111;2 539;3 312;551;114;121;101;107;108;2 761;88,4;70,8;92
+04 Nedre Glomma;04;Nedre Glomma;6814;1036;61;152;238;312;273;5 778;7 763;1 514;298;276;306;347;287;6 249;87,8;68,4;92,5
+05 Akershus Vest;05;Akershus Vest;10791;1485;158;294;345;376;312;9 306;11 943;1 921;406;400;387;394;334;10 022;90,4;77,3;92,9
+06 Follo;06;Follo;8247;869;101;173;193;208;194;7 378;8 976;1 095;238;215;223;215;204;7 881;91,9;79,4;93,6
+07 Nedre Romerike;07;Nedre Romerike;9940;1620;157;316;375;404;368;8 320;10 931;2 004;382;414;413;411;384;8 927;90,9;80,8;93,2
+08 Øvre Romerike;08;Øvre Romerike;5916;667;70;106;152;182;157;5 249;6 361;854;173;134;189;195;163;5 507;93;78,1;95,3
+09 Oslo;09;Oslo;36005;9648;807;1 793;2 148;2 453;2 447;26 357;42 353;12 529;2 495;2 564;2 550;2 501;2 419;29 824;85;77;88,4
 10 Fjellregionen;10;Fjellregionen;768;68;13;16;10;13;16;700;823;73;20;14;12;12;15;750;93,3;93,2;93,3
 11 Glåmdal;11;Glåmdal;2170;163;21;32;39;40;31;2 007;2 440;234;52;40;60;46;36;2 206;88,9;69,7;91
 12 Hamarregionen;12;Hamarregionen;4503;401;42;72;89;108;90;4 102;4 912;543;116;109;97;116;105;4 369;91,7;73,8;93,9
