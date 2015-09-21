@@ -1,5 +1,6 @@
 import fs from 'fs';
 import Rx from 'rx';
+import RxNode from 'rx-node';
 import path from 'path';
 import csv from 'csv-parse';
 import assert from 'assert';
@@ -91,7 +92,7 @@ const jsonLines = datasets
 jsonLines.pipe(fs.createWriteStream(OUTPUT_FILE));
 
 function readFileContents(path) {
-  return Rx.Node.fromReadableStream(
+  return RxNode.fromReadableStream(
     fs.createReadStream(path)
       .pipe(csv({
         delimiter: ';'

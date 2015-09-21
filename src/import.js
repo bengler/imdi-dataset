@@ -1,5 +1,6 @@
 import fs from 'fs';
 import Rx from 'rx';
+import RxNode from 'rx-node';
 import path from 'path';
 import csv from 'csv-parse';
 import assert from 'assert';
@@ -20,10 +21,13 @@ const REGION_NUMBER_ALIASES = {
   ],
   kommune: [
     'kommune_nr'
+  ],
+  fylke: [
+    'fylke_nr'
   ]
 };
 
-function padleft(str, len, padchar=" ") {
+function padleft(str, len, padchar = " ") {
   while (str.length < len) {
     str = `${padchar}${str}`;
   }
@@ -93,35 +97,30 @@ const files = Rx.Observable.from(SOURCE_DIRS)
 const datasets = files
     .map(createDatasetFromFilename)
     .flatMap(dataset => {
-      const rows = readFileContents(dataset.path);
 
-      let prevRow;
-      const headerRows = rows.takeWhile(row => {
-        if (!prevRow) {
-          prevRow = row;
-          return true;
-        }
-        const isLastHeaderRow = prevRow.some(cell => cell.includes('enhet'));
-        prevRow = row;
-        return !isLastHeaderRow;
-      });
+      const allRows = readFileContents(dataset.path);
+
+      const lastHeaderRow = allRows.first(row => {
+        return row.some(cell => cell.includes('enhet'));
+      })
+
+      const headerRows = allRows.takeUntil(lastHeaderRow)
 
       return headerRows
         .map(normalizeHeaderNames)
         .toArray()
-        .flatMap(headerRow => {
+        .flatMap(headerRows => {
+          if (headerRows.length === 1) return headerRows;
 
-          if (headerRow.length === 1) return headerRow;
-
-          const lastHeaderRow = headerRow.pop().map(cell => cell.replace(/^enhet\./, ''));
+          const lastHeaderRow = headerRows.pop().map(cell => cell.replace(/^enhet\./, ''));
           return lastHeaderRow.map((col, colIdx) => {
-            return [...(headerRow.map(row => row[colIdx])), col];
+            return [...(headerRows.map(row => row[colIdx])), col];
           });
         })
         .map(headerRow => headerRow.filter(Boolean))
         .toArray()
         .flatMap(headerRows => {
-          return rows
+          return allRows
             // Trim empty lines, i.e. ;;;;;;;;;;; or lines that contains only dotted values i.e. ;;;;;;.;.;;;; or ;;;;;;:;:;;;;
             .filter(row => {
               return row.map(cell => cell.trim())
@@ -215,18 +214,17 @@ const datasets = files
   ;
 
 const jsonLines = datasets
-  .map(dataset => JSON.stringify(dataset )+ '\n');
+  .map(dataset => JSON.stringify(dataset) + '\n');
 
-jsonLines
-  .pipe(fs.createWriteStream(path.join(OUTPUT_DIR, 'datasets.json')));
+RxNode.writeToStream(jsonLines, fs.createWriteStream(path.join(OUTPUT_DIR, 'datasets.json')));
 
 function readFileContents(path) {
-  return Rx.Node.fromReadableStream(
-    fs.createReadStream(path)
-      .pipe(csv({
-        delimiter: ';'
-      }))
-  )
+  return RxNode.fromReadableStream(
+      fs.createReadStream(path)
+        .pipe(csv({
+          delimiter: ';'
+        }))
+    )
     .map(row => row.map(cell => cell.trim()));
 }
 

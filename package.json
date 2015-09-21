@@ -22,16 +22,18 @@
     "json2csv": "^2.3.0",
     "lodash.chunk": "^3.0.0",
     "lodash.pick": "^3.0.0",
-    "lodash.uniq": "^3.1.0"
+    "lodash.uniq": "^3.1.0",
+    "rx": "^2.4.10"
   },
   "devDependencies": {
-    "csv-parse": "0.1.0",
     "babel": "^5.2.16",
     "chai": "^2.1.2",
-    "split": "^0.3.3",
+    "csv-parse": "0.1.0",
     "flat": "^1.5.1",
-    "rx": "^2.4.3",
-    "mocha": "^2.2.1"
+    "mocha": "^2.2.1",
+    "rx": "^3.1.2",
+    "rx-node": "^1.0.1",
+    "split": "^0.3.3"
   },
   "browserify": {
     "transform": [

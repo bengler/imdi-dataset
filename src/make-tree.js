@@ -1,4 +1,5 @@
 import Rx from 'rx';
+import RxNode from 'rx-node';
 import path from 'path';
 import fs from 'fs';
 import split from 'split';
@@ -16,7 +17,7 @@ const OUT_FILE = path.join(__dirname, '..', 'out', 'tree.json');
 
 const lines = Rx.Observable.from(SOURCE_FILES).flatMap(sourceFile => {
   debug(sourceFile)
-  return Rx.Node.fromReadableStream(
+  return RxNode.fromReadableStream(
     // splitting could probably be done using rx too, but too lazy to find out how rn
     fs.createReadStream(sourceFile, 'utf-8').pipe(split('\n'))
   );
