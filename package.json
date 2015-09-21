@@ -22,8 +22,7 @@
     "json2csv": "^2.3.0",
     "lodash.chunk": "^3.0.0",
     "lodash.pick": "^3.0.0",
-    "lodash.uniq": "^3.1.0",
-    "rx": "^2.4.10"
+    "lodash.uniq": "^3.1.0"
   },
   "devDependencies": {
     "babel": "^5.2.16",
