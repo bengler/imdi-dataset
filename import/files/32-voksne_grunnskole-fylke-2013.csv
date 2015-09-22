@@ -1,25 +1,25 @@
 Fylkenr-fylkenavn;fylke_nr;"Fylke
-navn";spraak.alle;spraak.alle;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;spraak.ikke_minoritet;spraak.alle;spraak.alle;spraak.alle
-;;;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_spesialund;undervisning_grskole.grskole_og_spesial
-Nedbrytninger;;;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.personer;enhet.personer
-00 Hele landet;0;Hele landet;10071;100;6429;63,8;3642;36,16324099;6417;3486;168
-01 Østfold;1;Østfold;250;100;202;80,8;48;19,2;200;45;5
-02 Akershus;2;Akershus;745;100;391;52,5;354;47,51677852;420;324;1
-03 Oslo;3;Oslo;2260;100;1758;77,8;502;22,21238938;1613;647;0
-04 Hedmark;4;Hedmark;246;100;136;55,3;110;44,71544715;150;83;13
-05 Oppland;5;Oppland;378;100;217;57,4;161;42,59259259;213;160;5
-06 Buskerud;6;Buskerud;455;100;312;68,6;143;31,42857143;317;129;9
-07 Vestfold;7;Vestfold;465;100;283;60,9;182;39,13978495;308;152;5
-08 Telemark;8;Telemark;499;100;290;58,1;209;41,88376754;267;225;7
-09 Aust-Agder;9;Aust-Agder;337;100;219;65;118;35,0148368;216;121;0
-10 Vest-Agder;10;Vest-Agder;497;100;227;45,7;270;54,32595573;210;275;12
-11 Rogaland;11;Rogaland;917;100;502;54,7;415;45,25627045;506;407;4
-12 Hordaland;12;Hordaland;606;100;324;53,5;282;46,53465347;424;173;9
-14 Sogn og Fjordane;14;Sogn og Fjordane;160;100;62;38,8;98;61,25;88;72;0
-15 Møre og Romsdal;15;Møre og Romsdal;683;100;298;43,6;385;56,36896047;318;278;87
-16 Sør-Trøndelag;16;Sør-Trøndelag;405;100;301;74,3;104;25,67901235;254;148;3
-17 Nord-Trøndelag;17;Nord-Trøndelag;251;100;156;62,2;95;37,84860558;157;93;1
-18 Nordland;18;Nordland;465;100;388;83,4;77;16,55913978;385;76;4
-19 Troms ;19;Troms ;280;100;238;85;42;15;251;29;0
-20 Finnmark ;20;Finnmark ;172;100;125;72,7;47;27,3255814;120;49;3
-99 Uoppgitt fylke;99;Uoppgitt fylke;;;;;;;;;
+navn";spraak.alle;spraak.alle;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;spraak.ikke_minoritet;spraak.alle;spraak.alle;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;spraak.ikke_minoritet;spraak.alle;spraak.alle;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;spraak.ikke_minoritet;spraak.alle;spraak.alle;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;spraak.ikke_minoritet
+;;;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_spesialund;undervisning_grskole.kun_spesialund;undervisning_grskole.kun_spesialund;undervisning_grskole.kun_spesialund;undervisning_grskole.kun_spesialund;undervisning_grskole.kun_spesialund;undervisning_grskole.grskole_og_spesial;undervisning_grskole.grskole_og_spesial;;undervisning_grskole.grskole_og_spesial;undervisning_grskole.grskole_og_spesial;undervisning_grskole.grskole_og_spesial
+Nedbrytninger;;;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent
+00 Hele landet;0;Hele landet;10071;100;6429;63,8;3642;36,16324099;6417;0,63717605;.;.;.;.;3486;0,346142389;.;.;.;.;168;0,016681561;.;.;.;.
+01 Østfold;1;Østfold;250;100;202;80,8;48;19,2;200;0,8;.;.;.;.;45;0,18;.;.;.;.;5;0,02;.;.;.;.
+02 Akershus;2;Akershus;745;100;391;52,5;354;47,51677852;420;0,563758389;.;.;.;.;324;0,434899329;.;.;.;.;1;0,001342282;.;.;.;.
+03 Oslo;3;Oslo;2260;100;1758;77,8;502;22,21238938;1613;0,713716814;.;.;.;.;647;0,286283186;.;.;.;.;0;0;.;.;.;.
+04 Hedmark;4;Hedmark;246;100;136;55,3;110;44,71544715;150;0,609756098;.;.;.;.;83;0,337398374;.;.;.;.;13;0,052845528;.;.;.;.
+05 Oppland;5;Oppland;378;100;217;57,4;161;42,59259259;213;0,563492063;.;.;.;.;160;0,423280423;.;.;.;.;5;0,013227513;.;.;.;.
+06 Buskerud;6;Buskerud;455;100;312;68,6;143;31,42857143;317;0,696703297;.;.;.;.;129;0,283516484;.;.;.;.;9;0,01978022;.;.;.;.
+07 Vestfold;7;Vestfold;465;100;283;60,9;182;39,13978495;308;0,662365591;.;.;.;.;152;0,32688172;.;.;.;.;5;0,010752688;.;.;.;.
+08 Telemark;8;Telemark;499;100;290;58,1;209;41,88376754;267;0,53507014;.;.;.;.;225;0,450901804;.;.;.;.;7;0,014028056;.;.;.;.
+09 Aust-Agder;9;Aust-Agder;337;100;219;65;118;35,0148368;216;0,640949555;.;.;.;.;121;0,359050445;.;.;.;.;0;0;.;.;.;.
+10 Vest-Agder;10;Vest-Agder;497;100;227;45,7;270;54,32595573;210;0,422535211;.;.;.;.;275;0,55331992;.;.;.;.;12;0,024144869;.;.;.;.
+11 Rogaland;11;Rogaland;917;100;502;54,7;415;45,25627045;506;0,551799346;.;.;.;.;407;0,443838604;.;.;.;.;4;0,00436205;.;.;.;.
+12 Hordaland;12;Hordaland;606;100;324;53,5;282;46,53465347;424;0,699669967;.;.;.;.;173;0,285478548;.;.;.;.;9;0,014851485;.;.;.;.
+14 Sogn og Fjordane;14;Sogn og Fjordane;160;100;62;38,8;98;61,25;88;0,55;.;.;.;.;72;0,45;.;.;.;.;0;0;.;.;.;.
+15 Møre og Romsdal;15;Møre og Romsdal;683;100;298;43,6;385;56,36896047;318;0,465592972;.;.;.;.;278;0,407027818;.;.;.;.;87;0,127379209;.;.;.;.
+16 Sør-Trøndelag;16;Sør-Trøndelag;405;100;301;74,3;104;25,67901235;254;0,627160494;.;.;.;.;148;0,365432099;.;.;.;.;3;0,007407407;.;.;.;.
+17 Nord-Trøndelag;17;Nord-Trøndelag;251;100;156;62,2;95;37,84860558;157;0,625498008;.;.;.;.;93;0,370517928;.;.;.;.;1;0,003984064;.;.;.;.
+18 Nordland;18;Nordland;465;100;388;83,4;77;16,55913978;385;0,827956989;.;.;.;.;76;0,16344086;.;.;.;.;4;0,008602151;.;.;.;.
+19 Troms ;19;Troms ;280;100;238;85;42;15;251;0,896428571;.;.;.;.;29;0,103571429;.;.;.;.;0;0;.;.;.;.
+20 Finnmark ;20;Finnmark ;172;100;125;72,7;47;27,3255814;120;0,697674419;.;.;.;.;49;0,284883721;.;.;.;.;3;0,01744186;.;.;.;.
+99 Uoppgitt fylke;99;Uoppgitt fylke;;;;;;;;;;;;;;;;;;;;;;;;

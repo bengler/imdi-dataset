@@ -1,0 +1,23 @@
+fylke;fylke_nr;fylke_navn;bosetting.bosatt_per_1000
+Nedbrytninger;;;enhet.promille
+00 Hele landet;0;Hele landet;1,51
+01 Østfold;1;Østfold;0,8
+02 Akershus;2;Akershus;1,01
+03 Oslo;3;Oslo;0,76
+04 Hedmark;4;Hedmark;1,48
+05 Oppland;5;Oppland;2
+06 Buskerud;6;Buskerud;1,5
+07 Vestfold;7;Vestfold;1,16
+08 Telemark;8;Telemark;2,26
+09 Aust-Agder;9;Aust-Agder;2,4
+10 Vest-Agder;10;Vest-Agder;2,52
+11 Rogaland;11;Rogaland;1,21
+12 Hordaland;12;Hordaland;1,28
+14 Sogn og Fjordane;14;Sogn og Fjordane;2,1
+15 Møre og Romsdal;15;Møte og Romsdal;1,71
+16 Sør-Trøndelag;16;Sør-Trøndelag;1,6
+17 Nord-Trøndelag;17;Nord-Trøndelag;2,53
+18 Nordland;18;Nordland;2,47
+19 Troms Romsa;19;Troms Romsa;2,09
+20 Finnmark Finnmárku;20;Finnmark Finnmárku;3,32
+99 Uoppgitt fylke;99;Uoppgitt fylke;.

@@ -1,87 +1,87 @@
-naringsgregion_nr-naringsregionnavn;naringsgregion_nr;naringsgregionnavn;spraak.alle;spraak.alle;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;spraak.ikke_minoritet;spraak.alle;spraak.alle;spraak.alle
-;;;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_spesialund;undervisning_grskole.grskole_og_spesial
-nedbrytninger;;;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.personer;enhet.personer
-01 Halden;1;Halden;42;100;26;61,9;16;38,0952381;26;16;0
-02 Indre Østfold;2;Indre Østfold;24;100;22;91,7;2;8,333333333;21;3;0
-03 Mosseregionen;3;Mosseregionen;32;100;27;84,4;5;15,625;25;7;0
-04 Nedre Glomma;4;Nedre Glomma;152;100;127;83,6;25;16,44736842;128;19;5
-05 Akershus Vest;5;Akershus Vest;232;100;113;48,7;119;51,29310345;150;82;0
-06 Follo;6;Follo;245;100;125;51;120;48,97959184;122;123;0
-07 Nedre Romerike;7;Nedre Romerike;212;100;111;52,4;101;47,64150943;110;102;0
-08 Øvre Romerike;8;Øvre Romerike;56;100;42;75;14;25;38;17;1
-09 Oslo;9;Oslo;2260;100;1758;77,8;502;22,21238938;1613;647;0
-10 Fjellregionen;10;Fjellregionen;17;100;1;5,9;16;94,11764706;0;17;0
-11 Glåmdal;11;Glåmdal;42;100;33;78,6;9;21,42857143;36;4;2
-12 Hamarregionen;12;Hamarregionen;109;100;38;34,9;71;65,13761468;56;53;0
-13 Sør Østerdal;13;Sør Østerdal;78;100;64;82,1;14;17,94871795;58;9;11
-14 Gjøvikregionen;14;Gjøvikregionen;139;100;70;50,4;69;49,64028777;74;62;3
-15 Hadeland;15;Hadeland;60;100;56;93,3;4;6,666666667;54;6;0
-16 Lillehammerregionen;16;Lillehammerregionen;116;100;45;38,8;71;61,20689655;39;75;2
-17 Midt-Gudbrandsdal;17;Midt-Gudbrandsdal;8;100;8;100;0;0;8;0;0
-18 Nord-Gudbrandsdal;18;Nord-Gudbrandsdal;28;100;28;100;0;0;28;0;0
-19 Valdres;19;Valdres;27;100;10;37;17;62,96296296;10;17;0
-20 Drammensregionen;20;Drammensregionen;266;100;189;71,1;77;28,94736842;177;83;6
-21 Hallingdal;21;Hallingdal;27;100;22;81,5;5;18,51851852;21;4;2
-22 Kongsberg/Numedal;22;Kongsberg/Numedal;26;100;21;80,8;5;19,23076923;22;4;0
-23 Midt-Buskerud;23;Midt-Buskerud;60;100;24;40;36;60;26;34;0
-24 Ringerike/Hole;24;Ringerike/Hole;88;100;56;63,6;32;36,36363636;71;16;1
-25 Tønsbergregionen;25;Tønsbergregionen;211;100;93;44,1;118;55,92417062;97;113;1
-26 Sandefjord/Larvik;26;Sandefjord/Larvik;242;100;190;78,5;52;21,48760331;211;27;4
-27 Grenland;27;Grenland;377;100;191;50,7;186;49,33687003;168;202;7
-28 Midt-Telemark;28;Midt-Telemark;51;100;36;70,6;15;29,41176471;36;15;0
-29 Øst-Telemark;29;Øst-Telemark;46;100;46;100;0;0;46;0;0
-30 Vest-Telemark;30;Vest-Telemark;25;100;17;68;8;32;17;8;0
-31 Setesdal;31;Setesdal;1;100;0;0;1;100;0;1;0
-32 Arendalregionen;32;Arendalregionen;283;100;203;71,7;80;28,26855124;199;84;0
-33 Lister;33;Lister;72;100;37;51,4;35;48,61111111;33;38;1
-34 Mandalsregionen;34;Mandalsregionen;58;100;29;50;29;50;28;29;1
-35 Kristiansandregionen;35;Kristiansandregionen;420;100;177;42,1;243;57,85714286;166;244;10
-36 Dalane;36;Dalane;23;100;0;0;23;100;2;21;0
-37 Haugesundregionen;37;Haugesundregionen;206;100;87;42,2;119;57,76699029;84;119;3
-38 Ryfylke;38;Ryfylke;45;100;12;26,7;33;73,33333333;27;18;0
-39 Stavangerregionen;39;Stavangerregionen;643;100;403;62,7;240;37,32503888;393;249;1
-40 Bergen;40;Bergen;318;100;204;64,2;114;35,8490566;298;17;3
-41 Bjørnefjorden;41;Bjørnefjorden;53;100;25;47,2;28;52,83018868;24;29;0
-42 Hardanger;42;Hardanger;50;100;18;36;32;64;18;32;0
-43 Voss;43;Voss;56;100;24;42,9;32;57,14285714;24;32;0
-44 Nordhordland;44;Nordhordland;48;100;19;39,6;29;60,41666667;18;28;2
-45 Osterfjorden;45;Osterfjorden;19;100;0;0;19;100;2;14;3
-46 Sunnhordland;46;Sunnhordland;28;100;13;46,4;15;53,57142857;18;9;1
-47 Hordaland Vest;47;Hordaland Vest;34;100;21;61,8;13;38,23529412;22;12;0
-48 HAFS;48;HAFS;12;100;0;0;12;100;0;12;0
-49 Nordfjord;49;Nordfjord;45;100;22;48,9;23;51,11111111;22;23;0
-50 Sogn;50;Sogn;47;100;17;36,2;30;63,82978723;16;31;0
-51 Sunnfjord;51;Sunnfjord;56;100;23;41,1;33;58,92857143;50;6;0
-52 Nordmøre;52;Nordmøre;203;100;153;75,4;50;24,63054187;161;42;0
-53 Romsdal;53;Romsdal;184;100;52;28,3;132;71,73913043;53;45;86
-54 Storfjord;54;Storfjord;18;100;0;0;18;100;0;18;0
-55 Søre Sunnmøre;55;Søre Sunnmøre;111;100;46;41,4;65;58,55855856;46;64;1
-56 Ålesundregionen;56;Ålesundregionen;167;100;47;28,1;120;71,85628743;58;109;0
-57 Fosen;57;Fosen;26;100;11;42,3;15;57,69230769;11;15;0
-58 Hitra/Frøya;58;Hitra/Frøya;3;100;0;0;3;100;0;3;0
-59 Oppdal/Rennebu;59;Oppdal/Rennebu;5;100;5;100;0;0;5;0;0
-60 Orkdalregionen;60;Orkdalregionen;21;100;21;100;0;0;21;0;0
-61 Trondheimsregionen;61;Trondheimsregionen;333;100;264;79,3;69;20,72072072;217;113;3
-62 Rørosregionen;62;Rørosregionen;17;100;0;0;17;100;0;17;0
-63 Stjørdalsregionen;63;Stjørdalsregionen;34;100;17;50;17;50;17;17;0
-64 Innherred;64;Innherred;140;100;77;55;63;45;78;62;0
-65 Indre Namdal;65;Indre Namdal;20;100;20;100;0;0;20;0;0
-66 Kystgruppen;66;Kystgruppen;10;100;8;80;2;20;8;1;1
-67 Midtre Namdal;67;Midtre Namdal;47;100;34;72,3;13;27,65957447;34;13;0
-68 Sør-Helgeland;68;Sør-Helgeland;75;100;49;65,3;26;34,66666667;45;29;1
-69 HALD;69;HALD;30;100;23;76,7;7;23,33333333;23;7;0
-70 Ytre Helgeland;70;Ytre Helgeland;5;100;0;0;5;100;0;5;0
-71 Mosjøregionen;71;Mosjøregionen;37;100;25;67,6;12;32,43243243;25;12;0
-72 Ranaregionen;72;Ranaregionen;72;100;59;81,9;13;18,05555556;64;8;0
-73 Salten;73;Salten;47;100;41;87,2;6;12,76595745;40;7;0
-74 Ofoten;74;Ofoten;33;100;25;75,8;8;24,24242424;25;8;0
-75 Lofoten;75;Lofoten;89;100;89;100;0;0;86;0;3
-76 Vesterålen;76;Vesterålen;77;100;77;100;0;0;77;0;0
-77 Sør-Troms;77;Sør-Troms;72;100;66;91,7;6;8,333333333;70;2;0
-78 Midt-Troms;78;Midt-Troms;127;100;122;96,1;5;3,937007874;124;3;0
-79 Tromsøregionen;79;Tromsøregionen;50;100;38;76;12;24;44;6;0
-80 Nord-Troms;80;Nord-Troms;31;100;12;38,7;19;61,29032258;13;18;0
-81 Vest-Finnmark;81;Vest-Finnmark;123;100;80;65;43;34,95934959;75;45;3
-82 Midt-Finnmark;82;Midt-Finnmark;9;100;8;88,9;1;11,11111111;8;1;0
-83 Øst-Finnmark;83;Øst-Finnmark;40;100;37;92,5;3;7,5;37;3;0
-99 Uoppgitt naringsregion;99;Uoppgitt naringsregion;;;;;;;;;
+naringsgregion_nr-naringsregionnavn;naringsgregion_nr;naringsgregionnavn;spraak.alle;spraak.alle;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;spraak.ikke_minoritet;spraak.alle;spraak.alle;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;spraak.ikke_minoritet;spraak.alle;spraak.alle;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;spraak.ikke_minoritet;spraak.alle;spraak.alle;spraak.minoritet;spraak.minoritet;spraak.ikke_minoritet;spraak.ikke_minoritet
+;;;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.alle;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_grunnskoleoppl;undervisning_grskole.kun_spesialund;undervisning_grskole.kun_spesialund;undervisning_grskole.kun_spesialund;undervisning_grskole.kun_spesialund;undervisning_grskole.kun_spesialund;undervisning_grskole.kun_spesialund;undervisning_grskole.grskole_og_spesial;undervisning_grskole.grskole_og_spesial;;undervisning_grskole.grskole_og_spesial;undervisning_grskole.grskole_og_spesial;undervisning_grskole.grskole_og_spesial
+nedbrytninger;;;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent
+01 Halden;1;Halden;42;100;26;61,9;16;38,0952381;26;0,619047619;.;.;.;.;16;0,380952381;.;.;.;.;0;0;.;.;.;.
+02 Indre Østfold;2;Indre Østfold;24;100;22;91,7;2;8,333333333;21;0,875;.;.;.;.;3;0,125;.;.;.;.;0;0;.;.;.;.
+03 Mosseregionen;3;Mosseregionen;32;100;27;84,4;5;15,625;25;0,78125;.;.;.;.;7;0,21875;.;.;.;.;0;0;.;.;.;.
+04 Nedre Glomma;4;Nedre Glomma;152;100;127;83,6;25;16,44736842;128;0,842105263;.;.;.;.;19;0,125;.;.;.;.;5;0,032894737;.;.;.;.
+05 Akershus Vest;5;Akershus Vest;232;100;113;48,7;119;51,29310345;150;0,646551724;.;.;.;.;82;0,353448276;.;.;.;.;0;0;.;.;.;.
+06 Follo;6;Follo;245;100;125;51;120;48,97959184;122;0,497959184;.;.;.;.;123;0,502040816;.;.;.;.;0;0;.;.;.;.
+07 Nedre Romerike;7;Nedre Romerike;212;100;111;52,4;101;47,64150943;110;0,518867925;.;.;.;.;102;0,481132075;.;.;.;.;0;0;.;.;.;.
+08 Øvre Romerike;8;Øvre Romerike;56;100;42;75;14;25;38;0,678571429;.;.;.;.;17;0,303571429;.;.;.;.;1;0,017857143;.;.;.;.
+09 Oslo;9;Oslo;2260;100;1758;77,8;502;22,21238938;1613;0,713716814;.;.;.;.;647;0,286283186;.;.;.;.;0;0;.;.;.;.
+10 Fjellregionen;10;Fjellregionen;17;100;1;5,9;16;94,11764706;0;0;.;.;.;.;17;1;.;.;.;.;0;0;.;.;.;.
+11 Glåmdal;11;Glåmdal;42;100;33;78,6;9;21,42857143;36;0,857142857;.;.;.;.;4;0,095238095;.;.;.;.;2;0,047619048;.;.;.;.
+12 Hamarregionen;12;Hamarregionen;109;100;38;34,9;71;65,13761468;56;0,513761468;.;.;.;.;53;0,486238532;.;.;.;.;0;0;.;.;.;.
+13 Sør Østerdal;13;Sør Østerdal;78;100;64;82,1;14;17,94871795;58;0,743589744;.;.;.;.;9;0,115384615;.;.;.;.;11;0,141025641;.;.;.;.
+14 Gjøvikregionen;14;Gjøvikregionen;139;100;70;50,4;69;49,64028777;74;0,532374101;.;.;.;.;62;0,446043165;.;.;.;.;3;0,021582734;.;.;.;.
+15 Hadeland;15;Hadeland;60;100;56;93,3;4;6,666666667;54;0,9;.;.;.;.;6;0,1;.;.;.;.;0;0;.;.;.;.
+16 Lillehammerregionen;16;Lillehammerregionen;116;100;45;38,8;71;61,20689655;39;0,336206897;.;.;.;.;75;0,646551724;.;.;.;.;2;0,017241379;.;.;.;.
+17 Midt-Gudbrandsdal;17;Midt-Gudbrandsdal;8;100;8;100;0;0;8;1;.;.;.;.;0;0;.;.;.;.;0;0;.;.;.;.
+18 Nord-Gudbrandsdal;18;Nord-Gudbrandsdal;28;100;28;100;0;0;28;1;.;.;.;.;0;0;.;.;.;.;0;0;.;.;.;.
+19 Valdres;19;Valdres;27;100;10;37;17;62,96296296;10;0,37037037;.;.;.;.;17;0,62962963;.;.;.;.;0;0;.;.;.;.
+20 Drammensregionen;20;Drammensregionen;266;100;189;71,1;77;28,94736842;177;0,665413534;.;.;.;.;83;0,312030075;.;.;.;.;6;0,022556391;.;.;.;.
+21 Hallingdal;21;Hallingdal;27;100;22;81,5;5;18,51851852;21;0,777777778;.;.;.;.;4;0,148148148;.;.;.;.;2;0,074074074;.;.;.;.
+22 Kongsberg/Numedal;22;Kongsberg/Numedal;26;100;21;80,8;5;19,23076923;22;0,846153846;.;.;.;.;4;0,153846154;.;.;.;.;0;0;.;.;.;.
+23 Midt-Buskerud;23;Midt-Buskerud;60;100;24;40;36;60;26;0,433333333;.;.;.;.;34;0,566666667;.;.;.;.;0;0;.;.;.;.
+24 Ringerike/Hole;24;Ringerike/Hole;88;100;56;63,6;32;36,36363636;71;0,806818182;.;.;.;.;16;0,181818182;.;.;.;.;1;0,011363636;.;.;.;.
+25 Tønsbergregionen;25;Tønsbergregionen;211;100;93;44,1;118;55,92417062;97;0,45971564;.;.;.;.;113;0,535545024;.;.;.;.;1;0,004739336;.;.;.;.
+26 Sandefjord/Larvik;26;Sandefjord/Larvik;242;100;190;78,5;52;21,48760331;211;0,871900826;.;.;.;.;27;0,111570248;.;.;.;.;4;0,016528926;.;.;.;.
+27 Grenland;27;Grenland;377;100;191;50,7;186;49,33687003;168;0,445623342;.;.;.;.;202;0,535809019;.;.;.;.;7;0,018567639;.;.;.;.
+28 Midt-Telemark;28;Midt-Telemark;51;100;36;70,6;15;29,41176471;36;0,705882353;.;.;.;.;15;0,294117647;.;.;.;.;0;0;.;.;.;.
+29 Øst-Telemark;29;Øst-Telemark;46;100;46;100;0;0;46;1;.;.;.;.;0;0;.;.;.;.;0;0;.;.;.;.
+30 Vest-Telemark;30;Vest-Telemark;25;100;17;68;8;32;17;0,68;.;.;.;.;8;0,32;.;.;.;.;0;0;.;.;.;.
+31 Setesdal;31;Setesdal;1;100;0;0;1;100;0;0;.;.;.;.;1;1;.;.;.;.;0;0;.;.;.;.
+32 Arendalregionen;32;Arendalregionen;283;100;203;71,7;80;28,26855124;199;0,703180212;.;.;.;.;84;0,296819788;.;.;.;.;0;0;.;.;.;.
+33 Lister;33;Lister;72;100;37;51,4;35;48,61111111;33;0,458333333;.;.;.;.;38;0,527777778;.;.;.;.;1;0,013888889;.;.;.;.
+34 Mandalsregionen;34;Mandalsregionen;58;100;29;50;29;50;28;0,482758621;.;.;.;.;29;0,5;.;.;.;.;1;0,017241379;.;.;.;.
+35 Kristiansandregionen;35;Kristiansandregionen;420;100;177;42,1;243;57,85714286;166;0,395238095;.;.;.;.;244;0,580952381;.;.;.;.;10;0,023809524;.;.;.;.
+36 Dalane;36;Dalane;23;100;0;0;23;100;2;0,086956522;.;.;.;.;21;0,913043478;.;.;.;.;0;0;.;.;.;.
+37 Haugesundregionen;37;Haugesundregionen;206;100;87;42,2;119;57,76699029;84;0,40776699;.;.;.;.;119;0,577669903;.;.;.;.;3;0,014563107;.;.;.;.
+38 Ryfylke;38;Ryfylke;45;100;12;26,7;33;73,33333333;27;0,6;.;.;.;.;18;0,4;.;.;.;.;0;0;.;.;.;.
+39 Stavangerregionen;39;Stavangerregionen;643;100;403;62,7;240;37,32503888;393;0,611197512;.;.;.;.;249;0,387247278;.;.;.;.;1;0,00155521;.;.;.;.
+40 Bergen;40;Bergen;318;100;204;64,2;114;35,8490566;298;0,937106918;.;.;.;.;17;0,053459119;.;.;.;.;3;0,009433962;.;.;.;.
+41 Bjørnefjorden;41;Bjørnefjorden;53;100;25;47,2;28;52,83018868;24;0,452830189;.;.;.;.;29;0,547169811;.;.;.;.;0;0;.;.;.;.
+42 Hardanger;42;Hardanger;50;100;18;36;32;64;18;0,36;.;.;.;.;32;0,64;.;.;.;.;0;0;.;.;.;.
+43 Voss;43;Voss;56;100;24;42,9;32;57,14285714;24;0,428571429;.;.;.;.;32;0,571428571;.;.;.;.;0;0;.;.;.;.
+44 Nordhordland;44;Nordhordland;48;100;19;39,6;29;60,41666667;18;0,375;.;.;.;.;28;0,583333333;.;.;.;.;2;0,041666667;.;.;.;.
+45 Osterfjorden;45;Osterfjorden;19;100;0;0;19;100;2;0,105263158;.;.;.;.;14;0,736842105;.;.;.;.;3;0,157894737;.;.;.;.
+46 Sunnhordland;46;Sunnhordland;28;100;13;46,4;15;53,57142857;18;0,642857143;.;.;.;.;9;0,321428571;.;.;.;.;1;0,035714286;.;.;.;.
+47 Hordaland Vest;47;Hordaland Vest;34;100;21;61,8;13;38,23529412;22;0,647058824;.;.;.;.;12;0,352941176;.;.;.;.;0;0;.;.;.;.
+48 HAFS;48;HAFS;12;100;0;0;12;100;0;0;.;.;.;.;12;1;.;.;.;.;0;0;.;.;.;.
+49 Nordfjord;49;Nordfjord;45;100;22;48,9;23;51,11111111;22;0,488888889;.;.;.;.;23;0,511111111;.;.;.;.;0;0;.;.;.;.
+50 Sogn;50;Sogn;47;100;17;36,2;30;63,82978723;16;0,340425532;.;.;.;.;31;0,659574468;.;.;.;.;0;0;.;.;.;.
+51 Sunnfjord;51;Sunnfjord;56;100;23;41,1;33;58,92857143;50;0,892857143;.;.;.;.;6;0,107142857;.;.;.;.;0;0;.;.;.;.
+52 Nordmøre;52;Nordmøre;203;100;153;75,4;50;24,63054187;161;0,793103448;.;.;.;.;42;0,206896552;.;.;.;.;0;0;.;.;.;.
+53 Romsdal;53;Romsdal;184;100;52;28,3;132;71,73913043;53;0,288043478;.;.;.;.;45;0,244565217;.;.;.;.;86;0,467391304;.;.;.;.
+54 Storfjord;54;Storfjord;18;100;0;0;18;100;0;0;.;.;.;.;18;1;.;.;.;.;0;0;.;.;.;.
+55 Søre Sunnmøre;55;Søre Sunnmøre;111;100;46;41,4;65;58,55855856;46;0,414414414;.;.;.;.;64;0,576576577;.;.;.;.;1;0,009009009;.;.;.;.
+56 Ålesundregionen;56;Ålesundregionen;167;100;47;28,1;120;71,85628743;58;0,347305389;.;.;.;.;109;0,652694611;.;.;.;.;0;0;.;.;.;.
+57 Fosen;57;Fosen;26;100;11;42,3;15;57,69230769;11;0,423076923;.;.;.;.;15;0,576923077;.;.;.;.;0;0;.;.;.;.
+58 Hitra/Frøya;58;Hitra/Frøya;3;100;0;0;3;100;0;0;.;.;.;.;3;1;.;.;.;.;0;0;.;.;.;.
+59 Oppdal/Rennebu;59;Oppdal/Rennebu;5;100;5;100;0;0;5;1;.;.;.;.;0;0;.;.;.;.;0;0;.;.;.;.
+60 Orkdalregionen;60;Orkdalregionen;21;100;21;100;0;0;21;1;.;.;.;.;0;0;.;.;.;.;0;0;.;.;.;.
+61 Trondheimsregionen;61;Trondheimsregionen;333;100;264;79,3;69;20,72072072;217;0,651651652;.;.;.;.;113;0,339339339;.;.;.;.;3;0,009009009;.;.;.;.
+62 Rørosregionen;62;Rørosregionen;17;100;0;0;17;100;0;0;.;.;.;.;17;1;.;.;.;.;0;0;.;.;.;.
+63 Stjørdalsregionen;63;Stjørdalsregionen;34;100;17;50;17;50;17;0,5;.;.;.;.;17;0,5;.;.;.;.;0;0;.;.;.;.
+64 Innherred;64;Innherred;140;100;77;55;63;45;78;0,557142857;.;.;.;.;62;0,442857143;.;.;.;.;0;0;.;.;.;.
+65 Indre Namdal;65;Indre Namdal;20;100;20;100;0;0;20;1;.;.;.;.;0;0;.;.;.;.;0;0;.;.;.;.
+66 Kystgruppen;66;Kystgruppen;10;100;8;80;2;20;8;0,8;.;.;.;.;1;0,1;.;.;.;.;1;0,1;.;.;.;.
+67 Midtre Namdal;67;Midtre Namdal;47;100;34;72,3;13;27,65957447;34;0,723404255;.;.;.;.;13;0,276595745;.;.;.;.;0;0;.;.;.;.
+68 Sør-Helgeland;68;Sør-Helgeland;75;100;49;65,3;26;34,66666667;45;0,6;.;.;.;.;29;0,386666667;.;.;.;.;1;0,013333333;.;.;.;.
+69 HALD;69;HALD;30;100;23;76,7;7;23,33333333;23;0,766666667;.;.;.;.;7;0,233333333;.;.;.;.;0;0;.;.;.;.
+70 Ytre Helgeland;70;Ytre Helgeland;5;100;0;0;5;100;0;0;.;.;.;.;5;1;.;.;.;.;0;0;.;.;.;.
+71 Mosjøregionen;71;Mosjøregionen;37;100;25;67,6;12;32,43243243;25;0,675675676;.;.;.;.;12;0,324324324;.;.;.;.;0;0;.;.;.;.
+72 Ranaregionen;72;Ranaregionen;72;100;59;81,9;13;18,05555556;64;0,888888889;.;.;.;.;8;0,111111111;.;.;.;.;0;0;.;.;.;.
+73 Salten;73;Salten;47;100;41;87,2;6;12,76595745;40;0,85106383;.;.;.;.;7;0,14893617;.;.;.;.;0;0;.;.;.;.
+74 Ofoten;74;Ofoten;33;100;25;75,8;8;24,24242424;25;0,757575758;.;.;.;.;8;0,242424242;.;.;.;.;0;0;.;.;.;.
+75 Lofoten;75;Lofoten;89;100;89;100;0;0;86;0,966292135;.;.;.;.;0;0;.;.;.;.;3;0,033707865;.;.;.;.
+76 Vesterålen;76;Vesterålen;77;100;77;100;0;0;77;1;.;.;.;.;0;0;.;.;.;.;0;0;.;.;.;.
+77 Sør-Troms;77;Sør-Troms;72;100;66;91,7;6;8,333333333;70;0,972222222;.;.;.;.;2;0,027777778;.;.;.;.;0;0;.;.;.;.
+78 Midt-Troms;78;Midt-Troms;127;100;122;96,1;5;3,937007874;124;0,976377953;.;.;.;.;3;0,023622047;.;.;.;.;0;0;.;.;.;.
+79 Tromsøregionen;79;Tromsøregionen;50;100;38;76;12;24;44;0,88;.;.;.;.;6;0,12;.;.;.;.;0;0;.;.;.;.
+80 Nord-Troms;80;Nord-Troms;31;100;12;38,7;19;61,29032258;13;0,419354839;.;.;.;.;18;0,580645161;.;.;.;.;0;0;.;.;.;.
+81 Vest-Finnmark;81;Vest-Finnmark;123;100;80;65;43;34,95934959;75;0,609756098;.;.;.;.;45;0,365853659;.;.;.;.;3;0,024390244;.;.;.;.
+82 Midt-Finnmark;82;Midt-Finnmark;9;100;8;88,9;1;11,11111111;8;0,888888889;.;.;.;.;1;0,111111111;.;.;.;.;0;0;.;.;.;.
+83 Øst-Finnmark;83;Øst-Finnmark;40;100;37;92,5;3;7,5;37;0,925;.;.;.;.;3;0,075;.;.;.;.;0;0;.;.;.;.
+99 Uoppgitt naringsregion;99;Uoppgitt naringsregion;;;;;;;;.;.;.;.;.;;.;.;.;.;.;;.;.;.;.;.

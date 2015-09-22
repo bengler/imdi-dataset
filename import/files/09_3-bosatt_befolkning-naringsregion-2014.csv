@@ -1,0 +1,88 @@
+"Næringsregion 
+nr & navn";naringsregion_nr;"Næringsregion
+navn";bosetting.bosatt_per_1000
+Nedbrytninger;;;enhet.promille
+01 Halden;1;Halden;0,725402269
+02 Indre Østfold;2;Indre Østfold;0,576710771
+03 Mosseregionen;3;Mosseregionen;0,707666386
+04 Nedre Glomma;4;Nedre Glomma;0,950077102
+05 Akershus Vest;5;Akershus Vest;0,909817149
+06 Follo;6;Follo;1,331313072
+07 Nedre Romerike;7;Nedre Romerike;0,895947157
+08 Øvre Romerike;8;Øvre Romerike;0,939561674
+09 Oslo;9;Oslo;0,764271024
+10 Fjellregionen;10;Fjellregionen;3,375471573
+11 Glåmdal;11;Glåmdal;1,033213105
+12 Hamarregionen;12;Hamarregionen;1,351425589
+13 Sør Østerdal;13;Sør Østerdal;1,67611811
+14 Gjøvikregionen;14;Gjøvikregionen;1,573954596
+15 Hadeland;15;Hadeland;2,834021921
+16 Lillehammerregionen;16;Lillehammerregionen;1,633182113
+17 Midt-Gudbrandsdal;17;Midt-Gudbrandsdal;2,235969293
+18 Nord-Gudbrandsdal;18;Nord-Gudbrandsdal;3,097925965
+19 Valdres;19;Valdres;1,726057906
+20 Drammensregionen;20;Drammensregionen;1,444063295
+21 Hallingdal;21;Hallingdal;2,722940776
+22 Kongsberg/Numedal;22;Kongsberg/Numedal;1,591687188
+23 Midt-Buskerud;23;Midt-Buskerud;1,232475736
+24 Ringerike/Hole;24;Ringerike/Hole;0,933809393
+25 Tønsbergregionen;25;Tønsbergregionen;1,231000575
+26 Sandefjord/Larvik;26;Sandefjord/Larvik;1,084931507
+27 Grenland;27;Grenland;1,987610561
+28 Midt-Telemark;28;Midt-Telemark;2,772370672
+29 Øst-Telemark;29;Øst-Telemark;3,829702576
+30 Vest-Telemark;30;Vest-Telemark;1,696592676
+31 Setesdal;31;Setesdal;4,322766571
+32 Arendalregionen;32;Arendalregionen;2,194498393
+33 Lister;33;Lister;2,659064119
+34 Mandalsregionen;34;Mandalsregionen;2,886973029
+35 Kristiansandregionen;35;Kristiansandregionen;2,444735718
+36 Dalane;36;Dalane;2,095919122
+37 Haugesundregionen;37;Haugesundregionen;1,201357053
+38 Ryfylke;38;Ryfylke;2,006232125
+39 Stavangerregionen;39;Stavangerregionen;1,084284865
+40 Bergen;40;Bergen;1,174067289
+41 Bjørnefjorden;41;Bjørnefjorden;0,669871542
+42 Hardanger;42;Hardanger;2,088772846
+43 Voss;43;Voss;2,369833415
+44 Nordhordland;44;Nordhordland;1,77310293
+45 Osterfjorden;45;Osterfjorden;0,974342319
+46 Sunnhordland;46;Sunnhordland;1,340002181
+47 Hordaland Vest;47;Hordaland Vest;1,144738905
+48 HAFS;48;HAFS;1,639186192
+49 Nordfjord;49;Nordfjord;2,22303429
+50 Sogn;50;Sogn;2,243737513
+51 Sunnfjord;51;Sunnfjord;1,97451086
+52 Nordmøre;52;Nordmøre;2,101485589
+53 Romsdal;53;Romsdal;2,209343825
+54 Storfjord;54;Storfjord;0,519480519
+55 Søre Sunnmøre;55;Søre Sunnmøre;1,821989529
+56 Ålesundregionen;56;Ålesundregionen;1,218855046
+57 Fosen;57;Fosen;1,817104484
+58 Hitra/Frøya;58;Hitra/Frøya;1,086602195
+59 Oppdal/Rennebu;59;Oppdal/Rennebu;2,229536044
+60 Orkdalregionen;60;Orkdalregionen;1,674377616
+61 Trondheimsregionen;61;Trondheimsregionen;1,518131608
+62 Rørosregionen;62;Rørosregionen;2,951593861
+63 Stjørdalsregionen;63;Stjørdalsregionen;2,594264188
+64 Innherred;64;Innherred;2,14559387
+65 Indre Namdal;65;Indre Namdal;4,621606008
+66 Kystgruppen;66;Kystgruppen;3,393890996
+67 Midtre Namdal;67;Midtre Namdal;2,478929103
+68 Sør-Helgeland;68;Sør-Helgeland;3,254124414
+69 HALD;69;HALD;3,832316596
+70 Ytre Helgeland;70;Ytre Helgeland;0
+71 Mosjøregionen;71;Mosjøregionen;2,080401395
+72 Ranaregionen;72;Ranaregionen;1,631924131
+73 Salten;73;Salten;2,178296696
+74 Ofoten;74;Ofoten;2,452577122
+75 Lofoten;75;Lofoten;3,515592688
+76 Vesterålen;76;Vesterålen;2,915988827
+77 Sør-Troms;77;Sør-Troms;2,985156378
+78 Midt-Troms;78;Midt-Troms;3,405634175
+79 Tromsøregionen;79;Tromsøregionen;1,388028256
+80 Nord-Troms;80;Nord-Troms;1,062168072
+81 Vest-Finnmark;81;Vest-Finnmark;2,268351225
+82 Midt-Finnmark;82;Midt-Finnmark;1,956663526
+83 Øst-Finnmark;83;Øst-Finnmark;5,77575022
+99 Uoppgitt næringsregion;99;Uoppgitt næringsregion;.

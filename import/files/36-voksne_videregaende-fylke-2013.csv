@@ -1,23 +1,23 @@
-Fylke;fylke_nr;fylke_navn;spraak.alle;spraak.minoritet;spraak.ikke_minoritet;spraak.minoritet
-Nedbrytninger;;;enhet.personer;enhet.personer;enhet.personer;enhet.prosent
-00 Hele landet;0;Hele landet;28132;9212;18920;32,74562775
-01 Østfold;1;Østfold;1255;383;872;30,5
-02 Akershus;2;Akershus;2678;1077;1601;40,2
-03 Oslo;3;Oslo;4966;2998;1968;60,4
-04 Hedmark;4;Hedmark;1008;208;800;20,6
-05 Oppland;5;Oppland;744;165;579;22,2
-06 Buskerud;6;Buskerud;1399;537;862;38,4
-07 Vestfold;7;Vestfold;1356;294;1062;21,7
-08 Telemark;8;Telemark;1266;441;825;34,8
-09 Aust-Agder;9;Aust-Agder;653;176;477;27
-10 Vest-Agder;10;Vest-Agder;731;233;498;31,9
-11 Rogaland;11;Rogaland;1918;437;1481;22,8
-12 Hordaland;12;Hordaland;3534;952;2582;26,9
-14 Sogn og Fjordane;14;Sogn og Fjordane;504;113;391;22,4
-15 Møre og Romsdal;15;Møre og Romsdal;1111;232;879;20,9
-16 Sør-Trøndelag;16;Sør-Trøndelag;1696;330;1366;19,5
-17 Nord-Trøndelag;17;Nord-Trøndelag;878;195;683;22,2
-18 Nordland;18;Nordland;1323;233;1090;17,6
-19 Troms Romsa;19;Troms Romsa;659;131;528;19,9
-20 Finnmark Finnmárku;20;Finnmark Finnmárku;453;77;376;17
-99 Uoppgitt fylke;99;Uoppgitt fylke;.;.;.;.
+Fylke;fylke_nr;fylke_navn;spraak.alle;spraak.minoritet;spraak.ikke_minoritet;spraak.alle;spraak.minoritet;spraak.ikke_minoritet
+Nedbrytninger;;;enhet.personer;enhet.personer;enhet.personer;enhet.prosent;enhet.prosent;enhet.prosent
+00 Hele landet;0;Hele landet;28132;9212;18920;100;32,74562775;67,25437225
+01 Østfold;1;Østfold;1255;383;872;100;30,5;69,5
+02 Akershus;2;Akershus;2678;1077;1601;100;40,2;59,8
+03 Oslo;3;Oslo;4966;2998;1968;100;60,4;39,6
+04 Hedmark;4;Hedmark;1008;208;800;100;20,6;79,4
+05 Oppland;5;Oppland;744;165;579;100;22,2;77,8
+06 Buskerud;6;Buskerud;1399;537;862;100;38,4;61,6
+07 Vestfold;7;Vestfold;1356;294;1062;100;21,7;78,3
+08 Telemark;8;Telemark;1266;441;825;100;34,8;65,2
+09 Aust-Agder;9;Aust-Agder;653;176;477;100;27;73
+10 Vest-Agder;10;Vest-Agder;731;233;498;100;31,9;68,1
+11 Rogaland;11;Rogaland;1918;437;1481;100;22,8;77,2
+12 Hordaland;12;Hordaland;3534;952;2582;100;26,9;73,1
+14 Sogn og Fjordane;14;Sogn og Fjordane;504;113;391;100;22,4;77,6
+15 Møre og Romsdal;15;Møre og Romsdal;1111;232;879;100;20,9;79,1
+16 Sør-Trøndelag;16;Sør-Trøndelag;1696;330;1366;100;19,5;80,5
+17 Nord-Trøndelag;17;Nord-Trøndelag;878;195;683;100;22,2;77,8
+18 Nordland;18;Nordland;1323;233;1090;100;17,6;82,4
+19 Troms Romsa;19;Troms Romsa;659;131;528;100;19,9;80,1
+20 Finnmark Finnmárku;20;Finnmark Finnmárku;453;77;376;100;17;83
+99 Uoppgitt fylke;99;Uoppgitt fylke;.;.;.;.;.;.

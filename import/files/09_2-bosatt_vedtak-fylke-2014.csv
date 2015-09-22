@@ -1,0 +1,23 @@
+fylke;fylke_nr;fylke_navn;bosetting.vedtak;bosetting.vedtak;bosetting.bosatt;bosetting.bosatt;bosetting.anmodning;bosetting.anmodning
+Nedbrytninger;;;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent;enhet.personer;enhet.prosent
+00 Hele landet;0;Hele landet;8084;100;7784;96,29;10973;135,74
+01 Østfold;1;Østfold;265;100;229;86,42;435;164,15
+02 Akershus;2;Akershus;636;100;590;92,77;767;120,60
+03 Oslo;3;Oslo;500;100;495;99;500;100,00
+04 Hedmark;4;Hedmark;287;100;289;100,7;450;156,79
+05 Oppland;5;Oppland;400;100;377;94,25;497;124,25
+06 Buskerud;6;Buskerud;421;100;412;97,86;600;142,52
+07 Vestfold;7;Vestfold;294;100;282;95,92;375;127,55
+08 Telemark;8;Telemark;368;100;388;105,43;540;146,74
+09 Aust-Agder;9;Aust-Agder;295;100;276;93,56;380;128,81
+10 Vest-Agder;10;Vest-Agder;455;100;456;100,22;570;125,27
+11 Rogaland;11;Rogaland;582;100;564;96,91;822;141,24
+12 Hordaland;12;Hordaland;686;100;652;95,04;936;136,44
+14 Sogn og Fjordane;14;Sogn og Fjordane;301;100;229;76,08;406;134,88
+15 Møre og Romsdal;15;Møte og Romsdal;443;100;451;101,81;735;165,91
+16 Sør-Trøndelag;16;Sør-Trøndelag;518;100;496;95,75;670;129,34
+17 Nord-Trøndelag;17;Nord-Trøndelag;333;100;343;103;425;127,63
+18 Nordland;18;Nordland;650;100;598;92;915;140,77
+19 Troms Romsa;19;Troms Romsa;408;100;341;83,58;525;128,68
+20 Finnmark Finnmárku;20;Finnmark Finnmárku;242;100;251;103,72;425;175,62
+99 Uoppgitt fylke;99;Uoppgitt fylke;.;.;65;.;.;.
