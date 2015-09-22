@@ -10,7 +10,7 @@ const writeFile = Rx.Observable.fromNodeCallback(fs.writeFile);
 
 const SOURCE_FILES = [
   path.join(__dirname, '..', 'tmp', 'datasets.json'),
-  path.join(__dirname, '..', 'tmp', 'historical.json')
+  // path.join(__dirname, '..', 'tmp', 'historical.json')
 ];
 
 const OUT_FILE = path.join(__dirname, '..', 'out', 'tree.json');
