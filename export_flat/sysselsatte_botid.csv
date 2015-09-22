@@ -1,4 +1,4 @@
-"aar","bydel_id","botid_5","enhet","tabellvariabel","tabell_navn","fylke_id","kommune_id","naringsregion_id"
+"aar","bydel_nr","botid_5","enhet","tabellvariabel","tabell_navn","fylke_nr","kommune_nr","naringsregion_nr"
 "2013","000301","0_4","personer","28351","sysselsatte_botid","NULL","NULL","NULL"
 "2013","000301","0_4","prosent","65.7","sysselsatte_botid","NULL","NULL","NULL"
 "2013","000301","5_9","personer","16650","sysselsatte_botid","NULL","NULL","NULL"

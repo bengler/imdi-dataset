@@ -1,4 +1,4 @@
-"aar","fylke_id","kohort","kjonn","avslutning_status_4","enhet","tabellvariabel","tabell_navn","bydel_id","kommune_id","naringsregion_id"
+"aar","fylke_nr","kohort","kjonn","avslutning_status_4","enhet","tabellvariabel","tabell_navn","bydel_nr","kommune_nr","naringsregion_nr"
 "2013","00","2008","0","alle","personer","1739","intro_status_arbutd","NULL","NULL","NULL"
 "2013","00","2008","0","alle","prosent","100","intro_status_arbutd","NULL","NULL","NULL"
 "2013","00","2008","0","arbutd","prosent","52","intro_status_arbutd","NULL","NULL","NULL"

@@ -1,4 +1,4 @@
-"aar","bydel_id","spraak","bhgalder","enhet","tabellvariabel","tabell_navn","barnikommune","fylke_id","naringsregion_id","kommune_id"
+"aar","bydel_nr","spraak","bhgalder","enhet","tabellvariabel","tabell_navn","barnikommune","fylke_nr","naringsregion_nr","kommune_nr"
 "2013","000301","alle","1_5","personer","36005","barnehagedeltakelse","NULL","NULL","NULL","NULL"
 "2013","000301","alle","1_5","prosent","85","barnehagedeltakelse","NULL","NULL","NULL","NULL"
 "2013","000301","minoritet","1","personer","807","barnehagedeltakelse","NULL","NULL","NULL","NULL"

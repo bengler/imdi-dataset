@@ -1,4 +1,4 @@
-"aar","fylke_id","rettigheter_introlov_nosfk","kjonn","enhet","tabellvariabel","tabell_navn","kommune_id","naringsregion_id"
+"aar","fylke_nr","rettigheter_introlov_nosfk","kjonn","enhet","tabellvariabel","tabell_navn","kommune_nr","naringsregion_nr"
 "2013","00","alle","0","personer","8002","norsk_deltakere","NULL","NULL"
 "2013","00","alle","1","personer","7490","norsk_deltakere","NULL","NULL"
 "2013","00","alle","alle","personer","15492","norsk_deltakere","NULL","NULL"

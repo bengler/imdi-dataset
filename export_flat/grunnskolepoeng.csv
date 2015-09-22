@@ -1,4 +1,4 @@
-"aar","bydel_id","innvkat_4","vreg_3","kjonn","invalder_3","enhet","tabellvariabel","tabell_navn","fylke_id","kommune_id","naringsregion_id"
+"aar","bydel_nr","innvkat_4","vreg_3","kjonn","invalder_3","enhet","tabellvariabel","tabell_navn","fylke_nr","kommune_nr","naringsregion_nr"
 "2013","000301","alle","alle","0","alle","gjennomsnitt","43","grunnskolepoeng","NULL","NULL","NULL"
 "2013","000301","alle","alle","0","alle","personer","2512","grunnskolepoeng","NULL","NULL","NULL"
 "2013","000301","alle","alle","1","alle","gjennomsnitt","39.6","grunnskolepoeng","NULL","NULL","NULL"

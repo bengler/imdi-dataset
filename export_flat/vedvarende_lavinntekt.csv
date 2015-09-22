@@ -1,4 +1,4 @@
-"aar","bydel_id","innvkat_3","vreg_3","enhet","tabellvariabel","tabell_navn","fylke_id","kommune_id","naringsregion_id"
+"aar","bydel_nr","innvkat_3","vreg_3","enhet","tabellvariabel","tabell_navn","fylke_nr","kommune_nr","naringsregion_nr"
 "2013","000301","alle","alle","prosent","13.7","vedvarende_lavinntekt","NULL","NULL","NULL"
 "2013","000301","innvandrere","1","prosent","19.6","vedvarende_lavinntekt","NULL","NULL","NULL"
 "2013","000301","innvandrere","2","prosent","31","vedvarende_lavinntekt","NULL","NULL","NULL"

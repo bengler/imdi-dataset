@@ -1,4 +1,4 @@
-"aar","fylke_id","spraaknivaa","provetype","enhet","tabellvariabel","tabell_navn","kommune_id"
+"aar","fylke_nr","spraaknivaa","provetype","enhet","tabellvariabel","tabell_navn","kommune_nr"
 "2014","00","alle","muntlig","personer","8050","norsk_prover","NULL"
 "2014","00","alle","lytting","personer","9694","norsk_prover","NULL"
 "2014","00","alle","lese","personer","9698","norsk_prover","NULL"

@@ -1,4 +1,4 @@
-"aar","bydel_id","vreg_2","kjonn","enhet","tabellvariabel","tabell_navn","vreg_5","vreg_9","fylke_id","naringsregion_id","kommune_id"
+"aar","bydel_nr","vreg_2","kjonn","enhet","tabellvariabel","tabell_navn","vreg_5","vreg_9","fylke_nr","naringsregion_nr","kommune_nr"
 "2014","000301","1","0","personer","25087","befolkning_verdensregion","NULL","NULL","NULL","NULL","NULL"
 "2014","000301","1","1","personer","32461","befolkning_verdensregion","NULL","NULL","NULL","NULL","NULL"
 "2014","000301","1","alle","personer","57548","befolkning_verdensregion","NULL","NULL","NULL","NULL","NULL"

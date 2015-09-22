@@ -1,4 +1,4 @@
-"aar","fylke_id","bosetting","enhet","tabellvariabel","tabell_navn","kommune_id","naringsregion_id","bydel_id"
+"aar","fylke_nr","bosetting","enhet","tabellvariabel","tabell_navn","kommune_nr","naringsregion_nr","bydel_nr"
 "2012","00","bosatt_per_1000","promille","1.14","bosatt_befolkning","NULL","NULL","NULL"
 "2012","01","bosatt_per_1000","promille","0.7","bosatt_befolkning","NULL","NULL","NULL"
 "2012","02","bosatt_per_1000","promille","0.75","bosatt_befolkning","NULL","NULL","NULL"

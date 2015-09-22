@@ -8,15 +8,15 @@ const debug = require('debug')('imdi-dataset:export-flat-files');
 
 
 const isValidNode = function(node) {
-  return !Array.isArray(node) && typeof node === 'object' && typeof node !== undefined    
+  return !Array.isArray(node) && typeof node === 'object' && typeof node !== undefined
 }
 
 const skipKeys = ["kommunenr-kommunenavn", "naringsregionnavnnavn", "naringsregion_navn", "fylke_navn", "naringsregionnr-naringsregionnavn", "N�ringsreg", "kommune_navn", "Fylkenr-fylkenavn", "bydel_navn", "bydel_nr", "kommune_nr", "fylke_nr", "naringsgregion_nr", "naringsregion_nr", "n�ringsregion_nr", "naringsgregion_nr-naringsregionnavn", "naringsgregionnavn", "kommune_nr-kommunenavn", "kommunenavn"];
 const administrativeKeyNames = {
-	"K": "kommune_id",
-	"N": "naringsregion_id",
-	"F" : "fylke_id",
-	"B" : "bydel_id"
+	"K": "kommune_nr",
+	"N": "naringsregion_nr",
+	"F" : "fylke_nr",
+	"B" : "bydel_nr"
 }
 
 const parsePath = function(path) {
@@ -41,7 +41,7 @@ const treeToArray = function(val,path) {
   var result = [];
   var keys = Object.keys(val);
 
-  // So we may assume all leaves are simply 
+  // So we may assume all leaves are simply
   keys = keys.filter((e)=> {
   	return !skipKeys.includes(e);
   })
@@ -108,7 +108,3 @@ const getKeys = function(o) {
 // const tables = [getKeys(tree)[4]];
 const tables = getKeys(tree);
 tables.forEach(dumpTable);
-
-
-
-

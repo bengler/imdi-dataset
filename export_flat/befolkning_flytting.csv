@@ -1,4 +1,4 @@
-"aar","bydel_id","flytting","innvkat_3","vreg_3","enhet","tabellvariabel","tabell_navn","fylke_id","Fylke","naringsregion_id","kommune_id"
+"aar","bydel_nr","flytting","innvkat_3","vreg_3","enhet","tabellvariabel","tabell_navn","fylke_nr","Fylke","naringsregion_nr","kommune_nr"
 "2013","000301","innvandring","alle","alle","personer","16800","befolkning_flytting","NULL","NULL","NULL","NULL"
 "2013","000301","innvandring","innvandrere","1","personer","8689","befolkning_flytting","NULL","NULL","NULL","NULL"
 "2013","000301","innvandring","innvandrere","2","personer","5912","befolkning_flytting","NULL","NULL","NULL","NULL"

@@ -1,4 +1,4 @@
-"aar","bydel_id","kjonn","vreg_3","enhet","tabellvariabel","tabell_navn","fylke_id","naringsregion_id","kommune_id"
+"aar","bydel_nr","kjonn","vreg_3","enhet","tabellvariabel","tabell_navn","fylke_nr","naringsregion_nr","kommune_nr"
 "2013","000301","0","1","personer","22645","sysselsatte_kjonn_land","NULL","NULL","NULL"
 "2013","000301","0","1","prosent","78.1","sysselsatte_kjonn_land","NULL","NULL","NULL"
 "2013","000301","0","2","personer","26198","sysselsatte_kjonn_land","NULL","NULL","NULL"

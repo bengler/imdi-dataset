@@ -1,4 +1,4 @@
-"aar","bydel_id","botid_3","forste_bosettingskommune","enhet","tabellvariabel","tabell_navn","fylke_id","Fylke","kommune_id","naringsregion_id"
+"aar","bydel_nr","botid_3","forste_bosettingskommune","enhet","tabellvariabel","tabell_navn","fylke_nr","Fylke","kommune_nr","naringsregion_nr"
 "2014","000301","alle","alle","personer","44619","flyktning_botid_flytting","NULL","NULL","NULL","NULL"
 "2014","000301","alle","alle","prosent","100","flyktning_botid_flytting","NULL","NULL","NULL","NULL"
 "2014","000301","0_4","alle","personer","4388","flyktning_botid_flytting","NULL","NULL","NULL","NULL"

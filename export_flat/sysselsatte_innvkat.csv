@@ -1,4 +1,4 @@
-"aar","bydel_id","innvkat_3","enhet","tabellvariabel","tabell_navn","fylke_id","kommune_id","naringsregion_id"
+"aar","bydel_nr","innvkat_3","enhet","tabellvariabel","tabell_navn","fylke_nr","kommune_nr","naringsregion_nr"
 "2013","000301","alle","personer","326618.00","sysselsatte_innvkat","NULL","NULL","NULL"
 "2013","000301","alle","prosent","75.9","sysselsatte_innvkat","NULL","NULL","NULL"
 "2013","000301","innvandrere","personer","85579.00","sysselsatte_innvkat","NULL","NULL","NULL"

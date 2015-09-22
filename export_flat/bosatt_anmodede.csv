@@ -1,4 +1,4 @@
-"aar","fylke_id","bosetting","enhet","tabellvariabel","tabell_navn","kommune_id","naringsregion_id","bydel_id"
+"aar","fylke_nr","bosetting","enhet","tabellvariabel","tabell_navn","kommune_nr","naringsregion_nr","bydel_nr"
 "2012","00","anmodning","personer","8801","bosatt_anmodede","NULL","NULL","NULL"
 "2012","00","anmodning","prosent","100","bosatt_anmodede","NULL","NULL","NULL"
 "2012","00","bosatt","personer","5757","bosatt_anmodede","NULL","NULL","NULL"

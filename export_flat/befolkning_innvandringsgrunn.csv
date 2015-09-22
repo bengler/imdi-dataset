@@ -1,4 +1,4 @@
-"aar","bydel_id","innvgrunn_5","kjonn","enhet","tabellvariabel","tabell_navn","fylke_id","naringsregion_id","kommune_id"
+"aar","bydel_nr","innvgrunn_5","kjonn","enhet","tabellvariabel","tabell_navn","fylke_nr","naringsregion_nr","kommune_nr"
 "2014","000301","alle","0","personer","47421","befolkning_innvandringsgrunn","NULL","NULL","NULL"
 "2014","000301","alle","1","personer","55774","befolkning_innvandringsgrunn","NULL","NULL","NULL"
 "2014","000301","alle","alle","personer","103195","befolkning_innvandringsgrunn","NULL","NULL","NULL"

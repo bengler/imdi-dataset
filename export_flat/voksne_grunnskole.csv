@@ -1,4 +1,4 @@
-"aar","fylke_id","spraak","undervisning_grskole","enhet","tabellvariabel","tabell_navn","kommune_id","naringsregion_id"
+"aar","fylke_nr","spraak","undervisning_grskole","enhet","tabellvariabel","tabell_navn","kommune_nr","naringsregion_nr"
 "2013","00","alle","alle","personer","10071","voksne_grunnskole","NULL","NULL"
 "2013","00","alle","alle","prosent","100","voksne_grunnskole","NULL","NULL"
 "2013","00","alle","kun_grunnskoleoppl","personer","6417","voksne_grunnskole","NULL","NULL"

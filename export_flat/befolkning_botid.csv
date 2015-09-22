@@ -1,4 +1,4 @@
-"aar","bydel_id","Bydel","enhet","tabellvariabel","tabell_navn","botid_5","vreg_3","fylke_id","Fylke","kommune_id","naringsregion_id"
+"aar","bydel_nr","Bydel","enhet","tabellvariabel","tabell_navn","botid_5","vreg_3","fylke_nr","Fylke","kommune_nr","naringsregion_nr"
 "2014","000301",,"navn","Oslokommune","befolkning_botid","NULL","NULL","NULL","NULL","NULL","NULL"
 "2014","000301","NULL","personer","57548","befolkning_botid","alle","1","NULL","NULL","NULL","NULL"
 "2014","000301","NULL","personer","94174","befolkning_botid","alle","2","NULL","NULL","NULL","NULL"

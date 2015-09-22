@@ -1,4 +1,4 @@
-"aar","bydel_id","vreg_9","enhet","tabellvariabel","tabell_navn","fylke_id","naringsregion_id","kommune_id"
+"aar","bydel_nr","vreg_9","enhet","tabellvariabel","tabell_navn","fylke_nr","naringsregion_nr","kommune_nr"
 "2013","000301","alle","personer","85579","sysselsatte_land","NULL","NULL","NULL"
 "2013","000301","alle","prosent","64.5","sysselsatte_land","NULL","NULL","NULL"
 "2013","000301","norden","personer","13851","sysselsatte_land","NULL","NULL","NULL"

@@ -1,4 +1,4 @@
-"aar","bydel_id","innvkat_5","kjonn","enhet","tabellvariabel","tabell_navn","fylke_id","naringsregion_id","kommune_id"
+"aar","bydel_nr","innvkat_5","kjonn","enhet","tabellvariabel","tabell_navn","fylke_nr","naringsregion_nr","kommune_nr"
 "2013","000301","alle","0","personer","7501","sosialhjelp","NULL","NULL","NULL"
 "2013","000301","alle","0","prosent","100","sosialhjelp","NULL","NULL","NULL"
 "2013","000301","alle","1","personer","9411","sosialhjelp","NULL","NULL","NULL"

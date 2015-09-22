@@ -1,4 +1,4 @@
-"aar","fylke_id","innvkat_5","kjonn","enhet","tabellvariabel","tabell_navn","kommune_id","naringsregion_id","bydel_id"
+"aar","fylke_nr","innvkat_5","kjonn","enhet","tabellvariabel","tabell_navn","kommune_nr","naringsregion_nr","bydel_nr"
 "2011","00","alle","0","personer","22683","videregaende_fullfort","NULL","NULL","NULL"
 "2011","00","alle","0","prosent",".","videregaende_fullfort","NULL","NULL","NULL"
 "2011","00","alle","1","personer","20803","videregaende_fullfort","NULL","NULL","NULL"

@@ -1,4 +1,4 @@
-"aar","bydel_id","innvkat_3","aldersinndeling_etter_grskole","enhet","tabellvariabel","tabell_navn","fylke_id","naringsregion_id","kommune_id"
+"aar","bydel_nr","innvkat_3","aldersinndeling_etter_grskole","enhet","tabellvariabel","tabell_navn","fylke_nr","naringsregion_nr","kommune_nr"
 "2013","000301","alle","alle","personer","88461","ikke_arbutd_innvkat_alder","NULL","NULL","NULL"
 "2013","000301","alle","alle","prosent","19.5","ikke_arbutd_innvkat_alder","NULL","NULL","NULL"
 "2013","000301","alle","16_25","personer","11211","ikke_arbutd_innvkat_alder","NULL","NULL","NULL"
